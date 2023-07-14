@@ -14,8 +14,8 @@ fi
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=9999
+SAVEHIST=2000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
@@ -36,11 +36,11 @@ alias cC="sudo rm -rf ~/.cache/*"
 alias ct="cd ~/tmp"
 alias cip="curl cip.cc"
 alias cy="curl -vv www.youtube.com"
-alias cr="cargo run"
-alias cb="cargo build"
+alias cg="cargo"
 alias du="du -h"
 alias dir="dir --color=auto"
 alias dk="docker"
+alias g="rg"
 alias gh="cd ~ && clear"
 alias grep="grep --color=auto"
 alias gl="git clone"

@@ -50,8 +50,6 @@ alias 'git log'="git log --all --graph --decorate"
 alias ga="git add"
 alias gc="git commit -m"
 alias gd="git diff"
-alias gp="git push"
-alias gpl="git pull"
 alias gac="git add .&&git commit -m"
 alias hs="hexo g && hexo s"
 alias hd="hexo d"
@@ -90,7 +88,7 @@ ra() {
     rm -f -- "$temp_file"
 }
 
-gacp() {
+gp() {
     git add "$1" && git commit -m "$2" && git push
 }
 

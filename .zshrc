@@ -38,19 +38,16 @@ alias cip="curl cip.cc"
 alias cy="curl -vv www.youtube.com"
 alias cg="cargo"
 alias du="du -h"
-alias dir="dir --color=auto"
 alias dk="docker"
+alias gpt="tgpt"
 alias g="rg"
 alias gh="cd ~ && clear"
-alias grep="grep --color=auto"
-alias gl="git clone"
 alias glog="git log --pretty=oneline --all --graph --abbrev-commit"
-alias gs="git status"
 alias 'git log'="git log --all --graph --decorate"
+alias gs="git status"
 alias ga="git add"
 alias gc="git commit -m"
 alias gd="git diff"
-alias gac="git add .&&git commit -m"
 alias hs="hexo g && hexo s"
 alias hd="hexo d"
 # alias j="joshuto"
@@ -59,14 +56,10 @@ alias ll="ls -al --color=auto"
 alias ne="neofetch | lolcat"
 alias n="neofetch"
 alias nv="nvim"
-alias sss="systemctl status"
-alias ssd="systemctl disable"
-alias sse="systemctl enable"
-alias sst="systemctl start"
-alias ssr="systemctl restart"
-alias ssp="systemctl stop"
+alias sc="systemctl"
 alias sz="source ~/.zshrc"
-alias snv="sudo vim"
+alias sn="sudo nvim"
+alias t="tmux"
 alias u="yay"
 alias up="cd .."
 alias yc="yay -Scc"
@@ -75,8 +68,8 @@ alias yc="yay -Scc"
 export PATH=$PATH:/home/Haotian/.cargo/bin
 
 # Set Terminal's language
-export LANGUAGE=en_US 
-export LANG=en_US.UTF-8 
+export LANGUAGE=en_US
+export LANG=en_US.UTF-8
 
 # Auto change dir---ranger
 ra() {
@@ -88,6 +81,7 @@ ra() {
     rm -f -- "$temp_file"
 }
 
+# gp . "update"
 gp() {
     git add "$1" && git commit -m "$2" && git push
 }
@@ -97,6 +91,14 @@ mcd() {
     mkdir -p "$1"
     cd "$1"
 }
+
+# Always work in a tmux session if tmux is installed
+# Based on https://github.com/chrishunt/dot-files/blob/master/.zshrc
+if which tmux 2>&1 >/dev/null; then
+  if [ $TERM != "screen-256color" ] && [ $TERM != "screen" ]; then
+    tmux
+  fi
+fi
 
 # source plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -109,3 +111,4 @@ source /usr/share/autojump/autojump.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+clear

@@ -1,4 +1,5 @@
 cp ~/.zshrc .
+cp ~/.tmux.conf .
 cp ~/.vimrc .
 cp ~/.ideavimrc .
 cp ~/.gitconfig .

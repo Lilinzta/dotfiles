@@ -28,6 +28,7 @@ compinit
 # User configuration
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
+alias venv="source ./venv/bin/activate"
 alias apu="sudo ifconfig ap0 up"
 alias apd="sudo ifconfig ap0 down"
 alias c="clear"
@@ -92,14 +93,6 @@ mcd() {
     cd "$1"
 }
 
-# Always work in a tmux session if tmux is installed
-# Based on https://github.com/chrishunt/dot-files/blob/master/.zshrc
-if which tmux 2>&1 >/dev/null; then
-  if [ $TERM != "screen-256color" ] && [ $TERM != "screen" ]; then
-    tmux
-  fi
-fi
-
 # source plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -111,4 +104,3 @@ source /usr/share/autojump/autojump.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-clear

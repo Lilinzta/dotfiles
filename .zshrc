@@ -13,6 +13,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/Haotian/.zshrc'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 autoload -Uz compinit
 compinit
@@ -48,7 +49,6 @@ zinit light romkatv/powerlevel10k
 # Two regular plugins loaded without investigating.
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
-
 
 # User configuration
 # Example aliases

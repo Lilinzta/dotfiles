@@ -1,8 +1,5 @@
-#  __  ____   ___________  _   _ ____   ____
-# |  \/  \ \ / /__  / ___|| | | |  _ \ / ___|
-# | |\/| |\ V /  / /\___ \| |_| | |_) | |
-# | |  | | | |  / /_ ___) |  _  |  _ <| |___
-# |_|  |_| |_| /____|____/|_| |_|_| \_\\____|
+#
+# ~/.zshrc
 #
 
 # Lines configured by zsh-newuser-install
@@ -76,7 +73,7 @@ alias gc="git commit -m"
 alias gd="git diff"
 alias hs="hexo g && hexo s"
 alias hd="hexo d"
-# alias j="joshuto"
+alias js="joshuto"
 alias ls="ls --color=auto"
 alias ll="ls -al --color=auto"
 alias ne="neofetch | lolcat"

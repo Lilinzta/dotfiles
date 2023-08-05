@@ -50,7 +50,6 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 # User configuration
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias venv="source ./venv/bin/activate"
 alias apu="sudo ifconfig ap0 up"
 alias apd="sudo ifconfig ap0 down"
 alias c="clear"
@@ -83,8 +82,12 @@ alias sc="systemctl"
 alias sz="source ~/.zshrc"
 alias sn="sudo nvim"
 alias t="tmux"
+alias tse="trans -t en -no-warn"
+alias ts="trans -t zh -no-warn"
 alias u="yay"
 alias up="cd .."
+alias venv="source ./venv/bin/activate"
+alias vm="sc start vmware-usbarbitrator vmware-networks"
 alias yc="yay -Scc"
 
 # export PICO_SDK_PATH="/opt/mylib/pico-sdk"

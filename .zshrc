@@ -70,7 +70,8 @@ alias gs="git status"
 alias ga="git add"
 alias gc="git commit -m"
 alias gd="git diff"
-alias hs="hexo g && hexo s"
+alias hs="hexo clean && hexo g && hexo s"
+alias hn="hexo new"
 alias hd="hexo d"
 alias js="joshuto"
 alias ls="ls --color=auto"
@@ -90,7 +91,6 @@ alias venv="source ./venv/bin/activate"
 alias vm="sc start vmware-usbarbitrator vmware-networks"
 alias yc="yay -Scc"
 
-# export PICO_SDK_PATH="/opt/mylib/pico-sdk"
 export PATH=$PATH:/home/Haotian/.cargo/bin
 
 # Set Terminal's language

@@ -4,7 +4,7 @@
 # environment variables. Some entries may override variables
 # set by alacritty itself.
 import:
-  - ~/.config/alacritty/themes/breeze.yaml
+  - ~/.config/alacritty/themes/gruvbox_dark.yaml
 env:
   # TERM variable
   #
@@ -20,7 +20,7 @@ window:
   #
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
-  opacity: 0.65
+  opacity: 0.85
   dimensions:
     columns: 120
     lines: 50

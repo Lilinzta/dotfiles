@@ -45,6 +45,7 @@ zinit light romkatv/powerlevel10k
 
 # Two regular plugins loaded without investigating.
 zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 # User configuration
@@ -74,24 +75,28 @@ alias hs="hexo clean && hexo g && hexo s"
 alias hn="hexo new"
 alias hd="hexo d"
 alias js="joshuto"
+alias kcp="kdeconnect-cli -n V2048A --share"
+alias kcw="kdeconnect-cli -n WayDroid x86_64 --share"
 alias ls="ls --color=auto"
+alias lg="lazygit"
 alias ll="ls -al --color=auto"
 alias ne="neofetch | lolcat"
 alias n="neofetch"
 alias nv="nvim"
+alias nvz="nvim ~/.zshrc"
 alias sc="systemctl"
 alias sz="source ~/.zshrc"
 alias sn="sudo nvim"
 alias t="tmux"
-alias tse="trans -t en -no-warn"
-alias ts="trans -t zh -no-warn"
+alias ts="sudo timeshift --create --tags D"
+alias tsd="sudo timeshift --delete"
 alias u="yay"
 alias up="cd .."
 alias venv="source ./venv/bin/activate"
 alias vm="sc start vmware-usbarbitrator vmware-networks"
 alias yc="yay -Scc"
 
-export PATH=$PATH:/home/Haotian/.cargo/bin
+export PATH=$PATH:/home/lilin/.cargo/bin
 
 # Set Terminal's language
 export LANGUAGE=en_US
@@ -110,6 +115,15 @@ ra() {
 # gp . "update"
 gp() {
     git add "$1" && git commit -m "$2" && git push
+}
+
+# tgpt translate en to zh
+ez() {
+  tgpt "translate English '$1' to Chinese"
+}
+# tgpt translate zh to en
+ze() {
+  tgpt "translate Chinese '$1' to English"
 }
 
 # Make dir and cd

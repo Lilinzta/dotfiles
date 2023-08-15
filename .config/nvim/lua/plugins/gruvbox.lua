@@ -1,17 +1,17 @@
--- if true then
---   return {}
--- end
+if false then
+  return {
 
-return {
+    -- add gruvbox
+    { "ellisonleao/gruvbox.nvim" },
 
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
+    -- Configure LazyVim to load gruvbox
+    {
+      "LazyVim/LazyVim",
+      opts = {
+        colorscheme = "gruvbox",
+      },
     },
-  },
-}
+  }
+else
+  return {}
+end

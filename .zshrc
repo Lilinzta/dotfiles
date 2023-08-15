@@ -39,7 +39,7 @@ autoload -Uz _zinit
 
 ### Plugins
 # Load powerlevel10k theme
-zinit ice depth"1" # git clone depth
+# zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
 
@@ -101,6 +101,25 @@ export PATH=$PATH:/home/lilin/.cargo/bin
 # Set Terminal's language
 export LANGUAGE=en_US
 export LANG=en_US.UTF-8
+
+# neovim switcher
+alias lvim="NVIM_APPNAME=LazyVim nvim"
+alias vimir="NVIM_APPNAME=ayamir nvim"
+alias chad="NVIM_APPNAME=NvChad nvim"
+
+function nvs() {
+  items=("default" "ayamir" "LazyVim" "NvChad")
+  config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config ❯ " --height=~50% --layout=reverse --border --exit-0)
+  if [[ -z $config ]]; then
+    echo "Nothing selected"
+    return 0
+  elif [[ $config == "default" ]]; then
+    config=""
+  fi
+  NVIM_APPNAME=$config nvim $@
+}
+
+bindkey -s ^a "nvims\n"
 
 # Auto change dir---ranger
 ra() {

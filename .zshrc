@@ -39,7 +39,7 @@ autoload -Uz _zinit
 
 ### Plugins
 # Load powerlevel10k theme
-# zinit ice depth"1" # git clone depth
+zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
 

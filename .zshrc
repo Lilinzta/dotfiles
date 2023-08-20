@@ -62,14 +62,12 @@ alias cy="curl -vv www.youtube.com"
 alias cg="cargo"
 alias du="du -h"
 alias dk="docker"
-alias gpt="tgpt"
-alias g="rg"
+alias gpt="sgpt"
+alias gpti="sgpt --repl qa"
+alias gptc="sudo rm -rf /tmp/shell_gpt"
 alias gh="cd ~ && clear"
 alias glog="git log --pretty=oneline --all --graph --abbrev-commit"
 alias 'git log'="git log --all --graph --decorate"
-alias gs="git status"
-alias ga="git add"
-alias gc="git commit -m"
 alias gd="git diff"
 alias hs="hexo clean && hexo g && hexo s"
 alias hn="hexo new"
@@ -85,6 +83,8 @@ alias n="neofetch"
 alias nv="nvim"
 alias nvz="nvim ~/.zshrc"
 alias sc="systemctl"
+alias vu="systemctl start v2raya"
+alias vd="systemctl stop v2raya"
 alias sz="source ~/.zshrc"
 alias sn="sudo nvim"
 alias t="tmux"
@@ -96,7 +96,7 @@ alias venv="source ./venv/bin/activate"
 alias vm="sc start vmware-usbarbitrator vmware-networks"
 alias yc="yay -Scc"
 
-export PATH=$PATH:/home/lilin/.cargo/bin
+export PATH=$PATH:/home/lilin/.cargo/bin:/home/lilin/.local/bin
 
 # Set Terminal's language
 export LANGUAGE=en_US
@@ -119,7 +119,7 @@ function nvs() {
   NVIM_APPNAME=$config nvim $@
 }
 
-bindkey -s ^a "nvims\n"
+bindkey -s ^n "nvims\n"
 
 # Auto change dir---ranger
 ra() {
@@ -136,13 +136,13 @@ gp() {
     git add "$1" && git commit -m "$2" && git push
 }
 
-# tgpt translate en to zh
+# sgpt translate en to zh
 ez() {
-  tgpt "translate English '$1' to Chinese"
+  sgpt "translate English '$1' to Chinese"
 }
-# tgpt translate zh to en
+# sgpt translate zh to en
 ze() {
-  tgpt "translate Chinese '$1' to English"
+  sgpt "translate Chinese '$1' to English"
 }
 
 # Make dir and cd
@@ -150,6 +150,20 @@ mcd() {
     mkdir -p "$1"
     cd "$1"
 }
+
+# Shell-GPT integration ZSH v0.1
+_sgpt_zsh() {
+if [[ -n "$BUFFER" ]]; then
+    _sgpt_prev_cmd=$BUFFER
+    BUFFER+="⌛"
+    zle -I && zle redisplay
+    BUFFER=$(sgpt --shell <<< "$_sgpt_prev_cmd")
+    zle end-of-line
+fi
+}
+zle -N _sgpt_zsh
+bindkey ^q _sgpt_zsh
+# Shell-GPT integration ZSH v0.1
 
 source /usr/share/autojump/autojump.zsh
 

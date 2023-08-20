@@ -12,6 +12,21 @@ if vim.g.neovide then
   vim.g.neovide_confirm_quit = true
   vim.g.neovide_cursor_animate_in_insert_mode = true
   vim.g.neovide_cursor_vfx_mode = "railgun"
+  vim.g.neovide_cursor_animate_in_insert_mode = true
+  vim.g.neovide_cursor_animate_command_line = true
+  vim.g.neovide_input_ime = true
+  vim.keymap.set("n", "<A-s>", ":w<CR>") -- Save
+  vim.keymap.set("v", "<A-c>", '"+y') -- Copy
+  vim.keymap.set("n", "<A-v>", '"+P') -- Paste normal mode
+  vim.keymap.set("v", "<A-v>", '"+P') -- Paste visual mode
+  vim.keymap.set("c", "<A-v>", "<C-R>+") -- Paste command mode
+  vim.keymap.set("i", "<A-v>", '<ESC>l"+Pli') -- Paste insert mode
+
+  -- Allow clipboard copy paste in neovim
+  vim.api.nvim_set_keymap("", "<A-v>", "+p<CR>", { noremap = true, silent = true })
+  vim.api.nvim_set_keymap("!", "<A-v>", "<C-R>+", { noremap = true, silent = true })
+  vim.api.nvim_set_keymap("t", "<A-v>", "<C-R>+", { noremap = true, silent = true })
+  vim.api.nvim_set_keymap("v", "<A-v>", "<C-R>+", { noremap = true, silent = true })
 end
 
 require("lazy").setup({

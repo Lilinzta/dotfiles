@@ -1,4 +1,4 @@
-export ZP=/home/lilin/.config/zsh
+export ZP=$HOME/.config/zsh
 source $ZP/zinitaller.zsh
 source $ZP/default.zsh
 source $ZP/custom/app.zsh

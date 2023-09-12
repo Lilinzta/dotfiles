@@ -1,4 +1,4 @@
 #
 # ~/.zshrc
 #
-source /home/lilin/.config/zsh/init.zsh
+source $HOME/.config/zsh/init.zsh

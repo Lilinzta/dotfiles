@@ -7,16 +7,19 @@ function ra() {
     fi
     rm -f -- "$temp_file"
 }
+function l() {
+  echo $(($1 * 75)) | sudo tee /sys/class/backlight/intel_backlight/brightness
+}
+function fj() {
+  sgpt "translate '$1' to Chinese"
+}
+function jf() {
+  sgpt "translate '$1' to English"
+}
 function acp() {
   git add .
   git commit -m "$1"
   git push
-}
-function ez() {
-  sgpt "translate English '$1' to Chinese"
-}
-function ze() {
-  sgpt "translate Chinese '$1' to English"
 }
 function mcd() {
     mkdir -p "$1"

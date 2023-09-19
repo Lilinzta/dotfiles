@@ -25,7 +25,7 @@ appstream-qt 0.16.3-1
 apr 1.7.3-1
 apr-util 1.6.3-1
 archlinux-appstream-data 20230827-2
-archlinux-keyring 20230821-2
+archlinux-keyring 20230918-1
 argon2 20190702-5
 aribb24 1.0.3-3
 ark 23.08.1-1
@@ -38,7 +38,6 @@ attica 5.110.0-1
 attr 2.5.1-3
 audit 3.1.2-1
 autoconf 2.71-4
-autojump 22.5.3-14
 automake 1.16.5-2
 avahi 1:0.8+r127+g55d783d-1
 ayatana-ido 0.10.1-1
@@ -171,7 +170,7 @@ fcitx5-pinyin-moegirl 20230914-1
 fcitx5-pinyin-zhwiki 1:0.2.4.20230823-1
 fcitx5-qt 5.1.0-1
 festival 2.5.0-5
-ffmpeg 2:6.0-10
+ffmpeg 2:6.0-11
 ffmpeg4.4 4.4.4-1
 ffmpegthumbnailer 2.2.2-5
 fftw 3.3.10-4
@@ -271,7 +270,7 @@ gwenview 23.08.1-1
 gzip 1.13-2
 harfbuzz 8.2.0-1
 harfbuzz-icu 8.2.0-1
-helix-git 23.05.r431.g7fa5f34-1
+helix-git 23.05.r435.g1c88432-1
 hicolor-icon-theme 0.17-3
 hidapi 0.14.0-2
 highlight 4.8-1
@@ -415,7 +414,6 @@ lapack 3.11.0-2
 latte-dock 0.10.9-1
 layer-shell-qt 5.27.8-1
 lazygit 0.40.2-1
-lceda-pro-bin 2.1.32-1
 lcms2 2.15-1
 ldb 2:2.8.0-1
 ldns 1.8.3-2
@@ -618,6 +616,7 @@ libdecor 0.1.1-2
 libdeflate 1.19-1
 libdispatch 5.5.0-1
 libdmtx 0.7.7-1
+libdovi 3.2.0-2
 libdrm 2.4.116-1
 libdv 1.0.0-11
 libdvbpsi 1:1.3.3-3
@@ -743,7 +742,7 @@ libpciaccess 0.17-1
 libpgm 5.3.128-3
 libpipeline 1.5.7-1
 libpipewire 1:0.3.80-1
-libplacebo 5.264.1-3
+libplacebo 5.264.1-4
 libplist 2.3.0-2
 libpng 1.6.40-2
 libproxy 0.5.3-2
@@ -964,6 +963,7 @@ ocl-icd 2.3.2-1
 okular 23.08.1-1
 oneko 1.2.5-4
 onetbb 2021.10.0-1
+onevpl 2023.3.1-1
 oniguruma 6.9.8-1
 openal 1.23.1-1
 opencc 1.1.6-2
@@ -1053,7 +1053,7 @@ postman-bin 10.17.4-1
 powerdevil 5.27.8-1
 ppp 2.5.0-1
 prison 5.110.0-1
-procps-ng 4.0.4-1
+procps-ng 4.0.4-2
 protobuf 24.2-1
 protobuf-c 1.4.1-3
 psmisc 23.6-1
@@ -1188,6 +1188,7 @@ qqc2-desktop-style 5.110.0-1
 qrencode 4.1.1-2
 qt5-3d 5.15.10-1
 qt5-base 5.15.10+kde+r155-1
+qt5-charts 5.15.10-1
 qt5-declarative 5.15.10+kde+r31-1
 qt5-graphicaleffects 5.15.10-1
 qt5-location 5.15.10+kde+r4-2
@@ -1217,8 +1218,10 @@ raptor 2.0.16-3
 rar 6.23.0-1
 rasqal 1:0.9.33-6
 rav1e 0.6.6-1
+rdm-bin 2022.6-2
 re2 1:20230901-1
 readline 8.2.001-2
+redis 7.2.1-1
 redland 1:1.0.17-8
 rhash 1.4.3-1
 ripgrep 13.0.0-3
@@ -1287,7 +1290,7 @@ sassc 3.6.2-4
 sbc 2.0-1
 scrcpy 2.1.1-1
 screenkey 1.5-3
-sddm-git 0.20.0.12.g93429ffe-1
+sddm-git 0.20.0.13.g8c370d97-1
 sddm-kcm 5.27.8-1
 sdl12-compat 1.2.64-1
 sdl2 2.28.3-1
@@ -1353,7 +1356,7 @@ talloc 2.4.1-1
 tar 1.35-1
 tcl 8.6.13-1
 tdb 1.4.9-1
-telegram-desktop 4.9.8-1
+telegram-desktop 4.9.9-1
 terminus-font 4.49.1-6
 tevent 1:0.15.0-1
 texinfo 7.0.3-1

@@ -7,5 +7,3 @@ source $ZP/custom/functions.zsh
 source $ZP/custom/plugins.zsh
 source $ZP/custom/export.zsh
 unset ZP
-
-source /usr/share/autojump/autojump.zsh

@@ -7,7 +7,7 @@ function ra() {
     fi
     rm -f -- "$temp_file"
 }
-function l() {
+function bl() {
   echo $(($1 * 75)) | sudo tee /sys/class/backlight/intel_backlight/brightness
 }
 function fj() {

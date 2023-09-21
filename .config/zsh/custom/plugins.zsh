@@ -6,11 +6,11 @@ zinit light-mode wait lucid depth=1 for \
  blockf \
     zsh-users/zsh-completions
 
+zinit ice wait lucid depth=1
+zinit light MichaelAquilina/zsh-you-should-use
 
 # oh-my-zsh libs
 zi light-mode lucid for \
-    OMZ::lib/git.zsh \
-    OMZ::lib/grep.zsh \
     OMZ::lib/history.zsh \
     OMZ::lib/functions.zsh \
     OMZ::lib/completion.zsh \
@@ -22,7 +22,6 @@ zi light-mode lucid for \
 zi light-mode wait lucid for \
     OMZ::plugins/z/z.plugin.zsh \
     OMZ::plugins/cp/cp.plugin.zsh \
-    OMZ::plugins/git/git.plugin.zsh \
     OMZ::plugins/pip/pip.plugin.zsh \
     OMZ::plugins/sudo/sudo.plugin.zsh \
     OMZ::plugins/python/python.plugin.zsh \
@@ -31,15 +30,10 @@ zi light-mode wait lucid for \
     OMZ::plugins/extract/extract.plugin.zsh \
     OMZ::plugins/archlinux/archlinux.plugin.zsh \
     OMZ::plugins/gitignore/gitignore.plugin.zsh \
-    OMZ::plugins/rand-quote/rand-quote.plugin.zsh \
-    OMZ::plugins/safe-paste/safe-paste.plugin.zsh \
     OMZ::plugins/common-aliases/common-aliases.plugin.zsh \
     OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh \
     OMZ::plugins/command-not-found/command-not-found.plugin.zsh
 
-
-zinit ice wait lucid depth=1
-zinit light MichaelAquilina/zsh-you-should-use
 
 zinit ice lucid depth=1
 zinit light romkatv/powerlevel10k

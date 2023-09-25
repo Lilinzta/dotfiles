@@ -211,7 +211,7 @@ gegl 0.4.46-2
 geoclue 2.7.1-1
 geoip 1.6.12-2
 geoip-database 20230901-1
-gettext 0.22-1
+gettext 0.22.2-1
 ghostscript 10.02.0-1
 giflib 5.2.1-2
 gimp 2.10.34-3
@@ -219,8 +219,9 @@ git 2.42.0-1
 glew 2.2.0-6
 glib-networking 1:2.78.0-1
 glib2 2.78.0-2
-glibc 2.38-3
+glibc 2.38-4
 glibmm 2.66.6-1
+glibmm-2.68 2.78.0-1
 glslang 13.0.0-1
 glu 9.0.3-1
 gmp 6.3.0-1
@@ -268,7 +269,7 @@ gwenview 23.08.1-1
 gzip 1.13-2
 harfbuzz 8.2.1-1
 harfbuzz-icu 8.2.1-1
-helix-git 23.05.r439.g7702e13-1
+helix-git 23.05.r441.g0252c7b-1
 hicolor-icon-theme 0.17-3
 hidapi 0.14.0-2
 highlight 4.8-1
@@ -321,7 +322,7 @@ kamera 23.08.1-1
 karchive 5.110.0-1
 kate 23.08.1-1
 kauth 5.110.0-1
-kbd 2.6.2-1
+kbd 2.6.3-1
 kbookmarks 5.110.0-1
 kcmutils 5.110.0-1
 kcodecs 5.110.0-1
@@ -439,7 +440,7 @@ lib32-gdk-pixbuf2 2.42.10-2
 lib32-gettext 0.22.2-1
 lib32-giflib 5.2.1-1
 lib32-glib2 2.78.0-2
-lib32-glibc 2.38-3
+lib32-glibc 2.38-4
 lib32-glu 9.0.3-1
 lib32-gmp 6.3.0-1
 lib32-gnutls 3.8.1-1
@@ -517,7 +518,7 @@ lib32-libxxf86vm 1.1.5-1
 lib32-llvm-libs 16.0.6-2
 lib32-lm_sensors 1:3.6.0.r41.g31d1f125-2
 lib32-mesa 1:23.1.8-1
-lib32-mpg123 1.32.0-1
+lib32-mpg123 1.32.1-1
 lib32-ncurses 6.4_20230520-1
 lib32-nettle 3.9.1-1
 lib32-nspr 4.35-1
@@ -873,7 +874,7 @@ modemmanager 1.20.6-2
 modemmanager-qt 5.110.0-1
 motrix 1.8.19-4
 mpfr 4.2.1-1
-mpg123 1.32.0-1
+mpg123 1.32.1-1
 mpv 1:0.36.0-1
 msgpack-c 5.0.0-1
 mtdev 1.1.6-2
@@ -898,7 +899,7 @@ nginx 1.24.0-2
 ninja 1.11.1-3
 no-more-secrets-git 1.0.1.r7.gcb4873e-1
 node-gyp 9.4.0-1
-nodejs 20.6.1-1
+nodejs 20.7.0-1
 nodejs-nopt 7.2.0-1
 noto-fonts 1:23.9.1-1
 noto-fonts-cjk 20230817-1
@@ -944,7 +945,7 @@ pandoc-bin 3.1.8-1
 pango 1:1.50.14-1
 pangomm 2.46.3-1
 parted 3.6-1
-passim 0.1.1-1
+passim 0.1.2-1
 patch 2.7.6-10
 pavucontrol 1:5.0+r64+geba9ca6-1
 pciutils 3.10.0-1
@@ -1038,7 +1039,7 @@ python-docopt 0.6.2-12
 python-dulwich 0.21.6-2
 python-evdev 1.6.1-2
 python-fastjsonschema 2.18.0-1
-python-filelock 3.12.2-1
+python-filelock 3.12.4-1
 python-gbinder 1.1.2-1
 python-gobject 3.46.0-1
 python-greenlet 2.0.2-4
@@ -1052,7 +1053,7 @@ python-jaraco.context 4.3.0-3
 python-jaraco.functools 3.9.0-1
 python-jaraco.text 3.11.1-3
 python-jeepney 0.8.0-2
-python-jsonschema 4.19.0-1
+python-jsonschema 4.19.1-1
 python-jsonschema-specifications 2023.7.1-1
 python-keyring 24.2.0-1
 python-lark-parser 1.1.7-2
@@ -1166,7 +1167,7 @@ redis 7.2.1-1
 rhash 1.4.3-1
 ripgrep 13.0.0-3
 rnnoise 0.4.1-1
-rsync 3.2.7-5
+rsync 3.2.7-6
 rtkit 0.13-2
 rtmpdump 1:2.4.r99.f1b83c1-2
 rubberband 3.3.0-1
@@ -1240,7 +1241,7 @@ semver 7.5.1-1
 serd 0.30.16-1
 serf 1.3.9-8
 shaderc 2023.4-2
-shadow 4.14.0-3
+shadow 4.14.0-4
 shared-mime-info 2.2+13+ga2ffb28-1
 shell-gpt 0.9.4-1
 signon-kwallet-extension 23.08.1-1
@@ -1282,23 +1283,23 @@ svt-av1 1.7.0-1
 svt-hevc 1.5.1-2
 syndication 5.110.0-1
 syntax-highlighting 5.110.0-1
-systemd 254.4-1
-systemd-libs 254.4-1
-systemd-sysvcompat 254.4-1
+systemd 254.4-2
+systemd-libs 254.4-2
+systemd-sysvcompat 254.4-2
 systemsettings 5.27.8-1
 taglib 1.13.1-1
 talloc 2.4.1-1
 tar 1.35-1
 tcl 8.6.13-1
 tdb 1.4.9-1
-telegram-desktop 4.9.9-2
+telegram-desktop 4.10.1-1
 terminus-font 4.49.1-6
 tevent 1:0.15.0-1
 texinfo 7.0.3-1
 tgpt-bin 1.8.0-1
 thin-provisioning-tools 1.0.6-1
 threadweaver 5.110.0-1
-thunderbird 115.2.2-1
+thunderbird 115.2.3-1
 timeshift 23.07.1-2
 tinyxml2 9.0.0-2
 tk 8.6.13-2
@@ -1360,7 +1361,7 @@ wayland 1.22.0-1
 wayland-protocols 1.32-1
 wayland-utils 1.2.0-1
 webkit2gtk-4.1 2.42.0-1
-webp-pixbuf-loader 0.2.4-1
+webp-pixbuf-loader 0.2.5-1
 webrtc-audio-processing 0.3.1-4
 webrtc-audio-processing-1 1.3-2
 webstorm 2023.2.2-1

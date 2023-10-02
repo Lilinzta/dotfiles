@@ -9,6 +9,6 @@ cp -r ~/.config/neofetch ./.config
 cp -r ~/.config/nvim ./.config
 cp -r ~/.config/ranger ./.config
 cp -r ~/.config/zsh ./.config
-cp -r ~/.tmux ./.config
+# cp -r ~/.tmux ./.config
 cp -r ~/.vim/autoload ./.vim
 pacman -Q >./pacman.txt

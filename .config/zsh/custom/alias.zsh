@@ -2,7 +2,7 @@
 # It's so ugly
 alias ap="~/ap.sh"
 alias aq="asciiquarium"
-alias c="clear"
+alias c="cd"
 alias ca="conda activate"
 alias cC="sudo rm -rf ~/.cache/* && echo 'Done!'"
 alias cip="curl cip.cc"

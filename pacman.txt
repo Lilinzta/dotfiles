@@ -87,7 +87,7 @@ chromaprint 1.5.1-7
 chromium 118.0.5993.70-1
 cifs-utils 7.0-3
 clang 16.0.6-1
-clash-for-windows-bin 0.20.37-2
+clash-for-windows-bin 0.20.38-1
 clazy 1.11-4
 clinfo 3.0.21.02.21-1
 clion 1:2023.2.2-1
@@ -178,7 +178,7 @@ figlet 2.2.5-5
 file 5.45-1
 filesystem 2023.09.18-1
 findutils 4.9.0-3
-firefox-developer-edition 119.0b8-1
+firefox-developer-edition 119.0b9-1
 flac 1.4.3-1
 flashrom 1.2-4
 flex 2.6.4-5
@@ -354,7 +354,7 @@ kdbusaddons5 5.110.0-1
 kde-cli-tools 5.27.8-2
 kde-gtk-config 5.27.8-2
 kdeclarative5 5.110.0-1
-kdeconnect 23.08.2-1
+kdeconnect 23.08.2-2
 kdecoration 5.27.8-2
 kded5 5.110.0-2
 kdelibs4support 5.110.0-2
@@ -381,7 +381,7 @@ kinfocenter 5.27.8-3
 kio-extras 23.08.2-1
 kio-fuse 5.0.1-2
 kio5 5.110.0-2
-kirigami-addons 0.11.0-2
+kirigami-addons5 0.11.0-3
 kirigami2 5.110.0-2
 kitemmodels5 5.110.0-1
 kitemviews5 5.110.0-1
@@ -546,7 +546,7 @@ lib32-pam 1.5.3-1
 lib32-pango 1:1.51.1-1
 lib32-pcre2 10.42-1
 lib32-pixman 0.42.2-1
-lib32-sqlite 3.43.1-1
+lib32-sqlite 3.43.2-1
 lib32-systemd 254.5-1
 lib32-tdb 1.4.9-1
 lib32-util-linux 2.39.2-1
@@ -702,10 +702,10 @@ libnftnl 1.2.6-1
 libnghttp2 1.57.0-1
 libnice 0.1.21-2
 libnl 3.8.0-1
-libnm 1.44.2-1
+libnm 1.44.2-2
 libnotify 0.8.3-1
 libnsl 2.0.0-3
-libnvme 1.6-1
+libnvme 1.6-2
 libogg 1.3.5-1
 libomxil-bellagio 0.9.3-4
 libopenmpt 0.7.3-1
@@ -911,7 +911,7 @@ neovim-remote 2.5.1-2
 net-tools 2.10-2
 netpbm 10.73.43-2
 nettle 3.9.1-1
-networkmanager 1.44.2-1
+networkmanager 1.44.2-2
 networkmanager-qt5 5.110.0-1
 nftables 1:1.0.8-2
 nginx 1.24.0-3
@@ -1306,7 +1306,7 @@ startup-notification 0.12-8
 steam 1.0.0.78-2
 subversion 1.14.2-11
 sudo 1.9.14.p3-1
-suitesparse 7.2.0-3
+suitesparse 7.2.1-1
 svt-av1 1.7.0-1
 svt-hevc 1.5.1-2
 syndication5 5.110.0-1
@@ -1372,7 +1372,7 @@ vim 9.0.2010-1
 vim-runtime 9.0.2010-1
 visual-studio-code-bin 1.83.1-1
 vkd3d 1.9-1
-vlc 3.0.18-17
+vlc 3.0.19-1
 vmaf 2.3.1-1
 vmware-keymaps 17.0.1-1
 vmware-workstation 17.0.2-2

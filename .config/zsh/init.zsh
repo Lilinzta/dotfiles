@@ -5,5 +5,5 @@ source $ZP/custom/app.zsh
 source $ZP/custom/alias.zsh
 source $ZP/custom/functions.zsh
 source $ZP/custom/plugins.zsh
-source $ZP/custom/export.zsh
+source $ZP/custom/env.zsh
 unset ZP

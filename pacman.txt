@@ -698,7 +698,7 @@ libnetfilter_conntrack 1.0.9-1
 libnewt 0.52.23-2
 libnfnetlink 1.0.2-1
 libnftnl 1.2.6-1
-libnghttp2 1.57.0-1
+libnghttp2 1.58.0-1
 libnice 0.1.21-2
 libnl 3.8.0-1
 libnm 1.44.2-3

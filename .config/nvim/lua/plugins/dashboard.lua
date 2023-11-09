@@ -55,7 +55,7 @@ return {
         center = {
           { action = "Telescope find_files",              desc = " Find file",       icon = " ", key = "f" },
           { action = "ene | startinsert",                 desc = " New file",        icon = " ", key = "n" },
-          { action = "Telescope projects",                 desc = " Projects",        icon = " ", key = "p" },
+          { action = "Telescope projects",                desc = " Projects",        icon = " ", key = "p" },
           { action = "e $MYVIMRC",                        desc = " Config",          icon = " ", key = "c" },
           { action = 'lua require("persistence").load()', desc = " Restore Session", icon = " ", key = "s" },
           { action = "LazyExtras",                        desc = " Lazy Extras",     icon = " ", key = "e" },

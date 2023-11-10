@@ -1372,6 +1372,7 @@ ttf-liberation 2.1.5-1
 ttf-lxgw-wenkai 1.311-1
 ttf-ms-fonts 2.0-12
 ttf-opensans 1.101-2
+ttf-sarasa-gothic 0.42.4-1
 ttf-wps-fonts 1.0-5
 twolame 0.4.0-3
 typora-free 0.11.18-4

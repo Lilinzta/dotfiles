@@ -9,7 +9,7 @@ adwaita-cursors 45.0-1
 adwaita-icon-theme 45.0-1
 aha 0.5.1-2
 alacritty 0.12.3-1
-alsa-card-profiles 1:0.3.84-1
+alsa-card-profiles 1:0.3.85-1
 alsa-firmware 1.2.4-3
 alsa-lib 1.2.10-2
 alsa-plugins 1:1.2.7.1-2
@@ -86,18 +86,18 @@ cdparanoia 10.2-8
 cfitsio 1:4.3.0-1
 chafa 1.12.4-3
 chromaprint 1.5.1-7
-chromium 119.0.6045.123-1
+chromium 119.0.6045.159-1
 cifs-utils 7.0-3
 clang 16.0.6-1
 clash-for-windows-bin 0.20.39-2
 clinfo 3.0.21.02.21-1
 clion 1:2023.2.2-2
-cmake 3.27.7-2
+cmake 3.27.8-1
 cmatrix 2.0-2
 colord 1.4.6-1
 compiler-rt 16.0.6-2
 confuse 3.3-3
-containerd 1.7.8-1
+containerd 1.7.9-1
 convertlit 1.8-11
 coreutils 9.4-2
 cowsay 3.04-4
@@ -140,7 +140,7 @@ dnssec-anchors 20190629-3
 docbook-xml 4.5-9
 docbook-xsl 1.79.2-7
 docker 1:24.0.7-1
-docker-compose 2.23.0-1
+docker-compose 2.23.1-1
 docx2txt 1.4-5
 dolphin 23.08.3-1
 dosfstools 4.2-3
@@ -240,7 +240,7 @@ gnupg 2.2.41-2
 gnutls 3.8.1-2
 go 2:1.21.4-1
 gobject-introspection-runtime 1.78.1-1
-goland 2023.2.4-1
+goland 2023.2.5-1
 gperftools 2.13-2
 gpgme 1.23.1-1
 gpm 1.20.7.r38.ge82d1a6-5
@@ -257,7 +257,7 @@ gsfonts 20200910-3
 gsm 1.0.22-1
 gssdp 1.6.3-1
 gst-libav 1.22.7-1
-gst-plugin-pipewire 1:0.3.84-1
+gst-plugin-pipewire 1:0.3.85-1
 gst-plugins-bad 1.22.7-1
 gst-plugins-bad-libs 1.22.7-1
 gst-plugins-base 1.22.7-1
@@ -280,7 +280,7 @@ gwenview 23.08.3-1
 gzip 1.13-2
 harfbuzz 8.3.0-1
 harfbuzz-icu 8.3.0-1
-helix-git 23.10.r47.g40959bb-1
+helix-git 23.10.r49.g3c8bf9d-1
 hicolor-icon-theme 0.17-3
 hidapi 0.14.0-2
 highlight 4.10-1
@@ -572,7 +572,7 @@ libassuan 2.5.6-1
 libasyncns 1:0.8+r3+g68cd5af-2
 libatasmart 0.19-6
 libavc1394 0.5.4-6
-libavif 1.0.1-4
+libavif 1.0.2-1
 libavtp 0.2.0-2
 libb2 0.98.1-2
 libblockdev 3.0.4-1
@@ -719,7 +719,7 @@ libpcap 1.10.4-1
 libpciaccess 0.17-1
 libpgm 5.3.128-3
 libpipeline 1.5.7-1
-libpipewire 1:0.3.84-1
+libpipewire 1:0.3.85-1
 libplacebo 5.264.1-4
 libplist 2.3.0-2
 libpng 1.6.40-2
@@ -859,7 +859,7 @@ lolcat 100.0.1-1
 lsb-release 2.0.r53.a86f885-1
 lsof 4.98.0-2
 lua 5.4.6-2
-luajit 2.1.1699392533-1
+luajit 2.1.1700008891-1
 lutris 0.5.14-1
 lv2 1.18.10-1
 lvm2 2.03.22-2
@@ -875,9 +875,9 @@ mailcap 2.1.54-1
 mailutils 3.16-1
 make 4.4.1-2
 man-db 2.12.0-1
-mariadb 11.1.2-1
-mariadb-clients 11.1.2-1
-mariadb-libs 11.1.2-1
+mariadb 11.1.3-1
+mariadb-clients 11.1.3-1
+mariadb-libs 11.1.3-1
 marisa 0.2.6-11
 mbedtls 3.4.1-1
 md4c 0.4.8-1
@@ -892,7 +892,7 @@ minder 1.15.6-2
 miniconda3 23.9.0-1
 minizip 1:1.3-2
 mjpegtools 2.2.1-2
-mkinitcpio 36-1
+mkinitcpio 37-1
 mkinitcpio-busybox 1.36.1-1
 mlt 7.20.0-1
 mobile-broadband-provider-info 20230416-1
@@ -912,7 +912,7 @@ ncurses 6.4_20230520-1
 ndctl 76.1-1
 neofetch 7.1.0-2
 neon 0.32.5-2
-neovide-git 0.11.2.r38.g3e83b031-1
+neovide-git 0.11.2.r40.gcf7f9967-1
 neovim 0.9.4-2
 neovim-remote 2.5.1-2
 net-tools 2.10-2
@@ -926,12 +926,12 @@ ninja 1.11.1-3
 nmap 7.94-2
 no-more-secrets-git 1.0.1.r7.gcb4873e-1
 node-gyp 10.0.1-1
-nodejs 21.1.0-1
+nodejs 21.2.0-1
 nodejs-nopt 7.2.0-1
 noto-fonts 1:23.11.1-1
 noto-fonts-cjk 20230817-1
-noto-fonts-emoji 20220920-1
-npm 10.2.3-2
+noto-fonts-emoji 1:2.040-1
+npm 10.2.4-1
 npth 1.6-4
 nspr 4.35-1
 nss 3.94-1
@@ -992,8 +992,9 @@ pico-project-generator-git 78.fcde2c2-1
 pinentry 1.2.1-3
 pip-tools 7.3.0-1
 pipes-rs 1.6.1-1
-pipewire 1:0.3.84-1
-pipewire-audio 1:0.3.84-1
+pipes.sh 1.3.0-1
+pipewire 1:0.3.85-1
+pipewire-audio 1:0.3.85-1
 pipewire-media-session 1:0.4.2-2
 pixman 0.42.2-1
 pkgconf 1.8.1-1
@@ -1044,7 +1045,7 @@ pulseaudio-bluetooth 16.1-6
 pulseaudio-qt 1.3-1
 purpose5 5.112.0-1
 pv 1.8.0-1
-pycharm-professional 2023.2.4-1
+pycharm-professional 2023.2.5-1
 python 3.11.5-2
 python-annotated-types 0.6.0-1
 python-attrs 22.2.0-3
@@ -1133,7 +1134,7 @@ python-rapidfuzz 3.4.0-1
 python-referencing 0.30.2-1
 python-requests 2.31.0-1
 python-requests-toolbelt 1.0.0-1
-python-rich 13.6.0-1
+python-rich 13.7.0-1
 python-rpds-py 0.10.6-1
 python-secretstorage 3.3.3-2
 python-setuptools 1:68.0.0-1
@@ -1145,7 +1146,7 @@ python-tomli 2.0.1-3
 python-tomlkit 0.12.2-1
 python-toolz 0.12.0-3
 python-tqdm 4.66.1-2
-python-trove-classifiers 2023.11.7-1
+python-trove-classifiers 2023.11.9-1
 python-typer 0.9.0-2
 python-typing_extensions 4.8.0-1
 python-uc-micro-py 1.0.2-1
@@ -1163,7 +1164,7 @@ qpdf 11.6.3-1
 qqc2-desktop-style5 5.112.0-1
 qrencode 4.1.1-2
 qt5-3d 5.15.11-1
-qt5-base 5.15.11+kde+r138-1
+qt5-base 5.15.11+kde+r146-1
 qt5-charts 5.15.11-1
 qt5-declarative 5.15.11+kde+r32-1
 qt5-graphicaleffects 5.15.11-1
@@ -1268,7 +1269,7 @@ rustup 1.26.0-5
 samba 4.19.2-1
 sassc 3.6.2-4
 sbc 2.0-1
-scrcpy 2.1.1-1
+scrcpy 2.2-1
 screenfetch 3.9.1-3
 screenkey 1.5-3
 scrot 1.10-1
@@ -1298,7 +1299,7 @@ smbclient 4.19.2-1
 snappy 1.1.10-1
 sndio 1.9.0-1
 socat 1.7.4.4-1
-sof-firmware 2023.09.1-1
+sof-firmware 2023.09.2-1
 solid5 5.112.0-1
 sonnet5 5.112.0-1
 sord 0.16.14-1
@@ -1343,7 +1344,7 @@ texinfo 7.1-1
 tgpt-bin 2.1.1-1
 thin-provisioning-tools 1.0.7-1
 threadweaver5 5.112.0-1
-thunderbird 115.4.2-1
+thunderbird 115.4.3-1
 timeshift 23.07.1-2
 tinyxml2 9.0.0-2
 tk 8.6.13-2
@@ -1385,8 +1386,8 @@ v2raya 2.2.4.3-1
 v4l-utils 1.24.1-2
 valgrind 3.21.0-4
 vid.stab 1.1.1-1
-vim 9.0.2070-1
-vim-runtime 9.0.2070-1
+vim 9.0.2112-1
+vim-runtime 9.0.2112-1
 visual-studio-code-bin 1.84.2-1
 vkd3d 1.9-1
 vlc 3.0.20-2
@@ -1475,7 +1476,7 @@ yarn 1.22.19-1
 yay 12.1.3-1
 youtube-dl-git 2021.12.17.r288.00ef748cc0-1
 youtube-music-bin 2.2.0-1
-yt-dlp 2023.11.14-1
+yt-dlp 2023.11.16-1
 zbar 0.23.90-3
 zenity 3.44.2-1
 zeromq 4.3.5-2

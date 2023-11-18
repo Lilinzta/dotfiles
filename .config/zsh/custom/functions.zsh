@@ -8,7 +8,7 @@ function ra() {
     rm -f -- "$temp_file"
 }
 function bl() {
-  echo $(($1 * 75)) | sudo tee /sys/class/backlight/intel_backlight/brightness
+  echo `expr $1 \* 75` | sudo tee /sys/class/backlight/intel_backlight/brightness
 }
 function fj() {
   sgpt "translate '$1' to Chinese"

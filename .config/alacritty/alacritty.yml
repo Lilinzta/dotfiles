@@ -4,7 +4,7 @@
 # environment variables. Some entries may override variables
 # set by alacritty itself.
 import:
-  - ~/.config/alacritty/themes/gruvbox_dark.yaml
+  - ~/.config/alacritty/themes/breeze.yaml
 env:
   # TERM variable
   #

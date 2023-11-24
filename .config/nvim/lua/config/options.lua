@@ -6,3 +6,5 @@ local opt = vim.opt
 -- opt.winbar = "%=%m %f"
 opt.shiftwidth = 2
 opt.tabstop = 2
+
+opt.fileencodings = "utf-8,gb18030"

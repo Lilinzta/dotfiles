@@ -63,9 +63,11 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'fneu/breezy'
 
 call plug#end()
-
-color snazzy
+" set background=dark
+" color snazzy
+colorscheme breezy
 let g:SnazzyTransparent = 1
 

@@ -54,7 +54,7 @@ bat 0.24.0-1
 bc 1.07.1-4
 binutils 2.41-3
 bison 3.8.2-6
-blas 3.11.0-3
+blas 3.12.0-1
 bluedevil 1:5.27.9-1
 bluez 5.70-1
 bluez-libs 5.70-1
@@ -81,7 +81,7 @@ cairo 1.18.0-1
 cairomm 1.14.5-1
 cantarell-fonts 1:0.303.1-1
 catdoc 0.95-5
-cblas 3.11.0-3
+cblas 3.12.0-1
 cdparanoia 10.2-8
 cfitsio 1:4.3.1-1
 chafa 1.12.4-3
@@ -427,7 +427,7 @@ kwrited 5.27.9-1
 kxmlgui5 5.112.0-1
 l-smash 2.14.5-3
 lame 3.100-4
-lapack 3.11.0-3
+lapack 3.12.0-1
 latte-dock 0.10.9-3
 layer-shell-qt 5.27.9-1
 lazygit 0.40.2-1
@@ -520,7 +520,7 @@ lib32-libxft 2.3.8-1
 lib32-libxi 1.8.1-1
 lib32-libxinerama 1.1.5-1
 lib32-libxkbcommon 1.6.0-1
-lib32-libxml2 2.12.0-1
+lib32-libxml2 2.12.1-1
 lib32-libxrandr 1.5.4-1
 lib32-libxrender 0.9.11-1
 lib32-libxshmfence 1.3.2-1
@@ -779,7 +779,7 @@ libunistring 1.1-2
 libunwind 1.7.2-1
 libupnp 1.14.18-1
 liburcu 0.14.0-1
-liburing 2.4-1
+liburing 2.5-1
 libusb 1.0.26-2
 libusb-compat 0.1.8-1
 libusbmuxd 2.0.2-3
@@ -819,7 +819,7 @@ libxkbcommon 1.6.0-1
 libxkbcommon-x11 1.6.0-1
 libxkbfile 1.1.2-1
 libxklavier 5.4-5
-libxml2 2.12.0-1
+libxml2 2.12.1-1
 libxmlb 0.3.14-1
 libxmlrpc 1:1.51.08-3
 libxmu 1.1.4-1
@@ -981,7 +981,7 @@ pavucontrol 1:5.0+r64+geba9ca6-1
 pciutils 3.10.0-1
 pcre 8.45-4
 pcre2 10.42-2
-pcsclite 2.0.0-1
+pcsclite 2.0.1-1
 perl 5.38.0-1
 perl-curses 1.44-2
 perl-error 0.17029-5
@@ -1123,8 +1123,8 @@ python-pycryptodome 3.19.0-1
 python-pycryptodomex 3.12.0-2
 python-pycups 2.0.1-6
 python-pycurl 7.45.2-3
-python-pydantic 2.4.2-1
-python-pydantic-core 1:2.10.1-1
+python-pydantic 2.5.2-1
+python-pydantic-core 1:2.14.5-1
 python-pygments 2.16.1-1
 python-pymysql 1.1.0-1
 python-pynvim 0.4.3-3

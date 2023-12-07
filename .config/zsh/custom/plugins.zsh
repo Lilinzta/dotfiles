@@ -35,5 +35,4 @@ zi light-mode wait lucid for \
     OMZ::plugins/command-not-found/command-not-found.plugin.zsh
 
 
-zinit ice lucid depth=1
-zinit light romkatv/powerlevel10k
+eval "$(starship init zsh)"

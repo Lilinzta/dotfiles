@@ -130,6 +130,7 @@ device-mapper 2.03.22-2
 devtools 1:1.0.4-1
 dhcpcd 10.0.5-1
 diffutils 3.10-1
+dingtalk-bin 7.1.0.31120-1
 discord 0.0.37-1
 discount 3.0.0.a-1
 discover 5.27.10-1
@@ -188,7 +189,7 @@ file 5.45-1
 filesystem 2023.09.18-1
 findutils 4.9.0-3
 firefox-developer-edition 121.0b9-1
-fish 3.6.2-1
+fish 3.6.4-1
 flac 1.4.3-1
 flashrom 1.2-4
 flex 2.6.4-5
@@ -847,13 +848,13 @@ libzen 0.4.41-1
 libzip 1.10.1-1
 licenses 20231011-1
 lilv 0.24.22-1
-linux 6.6.5.arch1-1
+linux 6.6.6.arch1-1
 linux-api-headers 6.4-1
 linux-firmware 20231110.74158e7a-1
 linux-firmware-whence 20231110.74158e7a-1
-linux-headers 6.6.5.arch1-1
-linux-zen 6.6.5.zen1-1
-linux-zen-headers 6.6.5.zen1-1
+linux-headers 6.6.6.arch1-1
+linux-zen 6.6.6.zen1-1
+linux-zen-headers 6.6.6.zen1-1
 linuxqq 2:3.2.3_19480-1
 lirc 1:0.10.2-3
 lld 16.0.6-1
@@ -867,7 +868,7 @@ lolcat 100.0.1-1
 lsb-release 2.0.r53.a86f885-1
 lsof 4.99.0-1
 lua 5.4.6-2
-luajit 2.1.1700008891-1
+luajit 2.1.1702233742-1
 lutris 0.5.14-1
 lv2 1.18.10-1
 lvm2 2.03.22-2
@@ -1163,7 +1164,7 @@ python-typing_extensions 4.9.0-1
 python-uc-micro-py 1.0.2-1
 python-urllib3 1.26.18-1
 python-validate-pyproject 0.13-1
-python-virtualenv 20.24.6-1
+python-virtualenv 20.25.0-1
 python-wcwidth 0.2.9-1
 python-webencodings 0.5.1-10
 python-websockets 10.4-3
@@ -1355,7 +1356,7 @@ telegram-desktop 4.12.2-1
 terminus-font 4.49.1-6
 tevent 1:0.15.0-1
 texinfo 7.1-2
-thin-provisioning-tools 1.0.8-1
+thin-provisioning-tools 1.0.9-1
 threadweaver5 5.112.0-1
 thunderbird 115.5.1-1
 timeshift 23.12.1-1

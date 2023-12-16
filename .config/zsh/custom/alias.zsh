@@ -1,6 +1,6 @@
 # I just don't want that in my .zshrc
 # It's so ugly
-alias ap='~/ap.sh'
+alias ap='~/Code/shell/ap.sh'
 alias apr='sudo ifconfig ap0 down && sudo ifconfig ap0 up'
 alias aq='asciiquarium'
 alias c='cd'

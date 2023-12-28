@@ -4,7 +4,7 @@
 # environment variables. Some entries may override variables
 # set by alacritty itself.
 import:
-  - ~/.config/alacritty/themes/tokyo-night.yaml
+  - ~/.config/alacritty/tokyo-night.yaml
 env:
   # TERM variable
   #

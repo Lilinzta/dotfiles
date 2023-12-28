@@ -8,8 +8,8 @@
 [core]
 	editor = nvim
 [color]
-  branch = auto
-  diff = auto
-  status = auto
+    branch = auto
+    diff = auto
+    status = auto
 [safe]
 	directory = /opt/flutter

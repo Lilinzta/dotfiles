@@ -159,6 +159,7 @@ efivar 38-3
 electron22 22.3.27-3
 ell 0.61-1
 emacs 29.1-4
+embree3 3.13.5-2
 enchant 2.6.4-2
 espeak 1:1.48.04-4
 exiv2 0.28.1-1
@@ -245,6 +246,7 @@ gnu-free-fonts 20120503-8
 gnupg 2.4.3-2
 gnutls 3.8.2-1
 gobject-introspection-runtime 1.78.1-1
+godot 4.2.1-1
 gperftools 2.13-2
 gpgme 1.23.2-1
 gpm 1.20.7.r38.ge82d1a6-5
@@ -456,7 +458,7 @@ lib32-dbus 1.14.10-1
 lib32-e2fsprogs 1.47.0-1
 lib32-expat 2.5.0-2
 lib32-flac 1.4.3-1
-lib32-fontconfig 2:2.14.2-1
+lib32-fontconfig 2:2.15.0-1
 lib32-freetype2 2.13.2-1
 lib32-fribidi 1.0.13-2
 lib32-gcc-libs 13.2.1-3
@@ -764,6 +766,7 @@ libsoxr 0.1.3-3
 libspectre 0.2.12-1
 libspeechd 0.11.5-1
 libspiro 1:20221101-2
+libsquish 1.15-7
 libsrtp 1:2.5.0-1
 libssh 0.10.6-1
 libssh2 1.11.0-1
@@ -808,6 +811,7 @@ libwebp 1.3.2-1
 libwireplumber 0.4.17-1
 libwmf 0.2.13-1
 libwpe 1.14.1-2
+libwslay 1.1.1-5
 libx11 1.8.7-1
 libxau 1.0.11-2
 libxaw 1.0.15-1
@@ -831,7 +835,7 @@ libxkbfile 1.1.2-1
 libxklavier 5.4-5
 libxml2 2.12.3-1
 libxmlb 0.3.14-1
-libxmlrpc 1:1.54.06-1
+libxmlrpc 1:1.59.02-1
 libxmu 1.1.4-1
 libxpm 3.5.17-1
 libxpresent 1.0.1-1
@@ -892,6 +896,7 @@ mariadb-clients 11.2.2-1
 mariadb-libs 11.2.2-1
 marisa 0.2.6-11
 mbedtls 3.4.1-1
+mbedtls2 2.28.6-1
 md4c 0.4.8-1
 mdadm 4.2-2
 media-player-info 24-2
@@ -902,6 +907,7 @@ mesa-utils 9.0.0-3
 milou 5.27.10-1
 minder 1.15.6-2
 miniconda3 23.10.0-1
+miniupnpc 2.2.5-1
 minizip 1:1.3-2
 mjpegtools 2.2.1-2
 mkinitcpio 37.1-2
@@ -984,7 +990,7 @@ pambase 20230918-1
 pandoc-bin 3.1.11-1
 pango 1:1.51.1-1
 pangomm 2.46.3-1
-parallel 20231122-1
+parallel 20231222-1
 parted 3.6-1
 passim 0.1.4-1
 patch 2.7.6-10
@@ -1081,7 +1087,7 @@ python-colorama 0.4.6-2
 python-configobj 5.0.8-4
 python-crashtest 0.4.1-2
 python-cryptography 41.0.7-1
-python-distlib 0.3.7-1
+python-distlib 0.3.8-1
 python-distro 1.8.0-3
 python-docopt 0.6.2-12
 python-dulwich 0.21.7-1
@@ -1104,9 +1110,9 @@ python-jaraco.functools 3.9.0-1
 python-jaraco.text 3.11.1-3
 python-jeepney 0.8.0-2
 python-jsonschema 4.20.0-1
-python-jsonschema-specifications 2023.11.2-1
+python-jsonschema-specifications 2023.12.1-1
 python-keyring 24.3.0-1
-python-lark-parser 1.1.7-2
+python-lark-parser 1.1.8-1
 python-lockfile 0.12.2-12
 python-lxml 4.9.2-3
 python-markdown-it-py 3.0.0-1
@@ -1120,7 +1126,7 @@ python-numpy 1.26.2-1
 python-ordered-set 4.1.0-4
 python-packaging 23.2-1
 python-patiencediff 0.2.14-2
-python-pexpect 4.8.0-7
+python-pexpect 4.9.0-1
 python-pillow 10.1.0-2
 python-pip 23.3.2-1
 python-pkginfo 1.9.6-2
@@ -1150,12 +1156,12 @@ python-pyrate-limiter 3.1.0-1
 python-pyrsistent 0.19.3-3
 python-pytest 7.4.3-1
 python-pyxdg 0.28-2
-python-rapidfuzz 3.4.0-1
-python-referencing 0.31.1-1
+python-rapidfuzz 3.6.0-1
+python-referencing 0.32.0-1
 python-requests 2.31.0-1
 python-requests-toolbelt 1.0.0-1
 python-rich 13.7.0-1
-python-rpds-py 0.10.6-1
+python-rpds-py 0.15.2-1
 python-secretstorage 3.3.3-2
 python-setuptools 1:69.0.3-1
 python-shellingham 1.5.0.post1-4
@@ -1163,7 +1169,7 @@ python-six 1.16.0-8
 python-soundcard-git 0.4.2.r23.g1293845-1
 python-soupsieve 2.5-1
 python-tomli 2.0.1-3
-python-tomlkit 0.12.2-1
+python-tomlkit 0.12.3-1
 python-toolz 0.12.0-3
 python-tqdm 4.66.1-2
 python-trove-classifiers 2023.11.29-1
@@ -1173,7 +1179,7 @@ python-uc-micro-py 1.0.2-1
 python-urllib3 1.26.18-1
 python-validate-pyproject 0.13-1
 python-virtualenv 20.25.0-1
-python-wcwidth 0.2.9-1
+python-wcwidth 0.2.12-1
 python-webencodings 0.5.1-10
 python-websockets 12.0-1
 python-wheel 0.42.0-1
@@ -1294,7 +1300,7 @@ scrcpy 2.3.1-1
 screenfetch 3.9.1-3
 screenkey 1.5-3
 scrot 1.10-1
-sddm-git 0.20.0.15.gb002d02b-1
+sddm-git 0.20.0.17.g50112929-1
 sddm-kcm 5.27.10-1
 sdl12-compat 1.2.68-1
 sdl2 2.28.5-1
@@ -1341,7 +1347,7 @@ sratom 0.6.16-1
 srt 1.5.3-1
 ssfconv 1.1.1-1
 sshfs 3.7.3-1
-starship 1.16.0-1
+starship 1.17.0-1
 startup-notification 0.12-8
 steam 1.0.0.78-2
 subversion 1.14.2-13
@@ -1406,7 +1412,7 @@ util-linux 2.39.3-1
 util-linux-libs 2.39.3-1
 v2ray 5.12.1-1
 v2ray-domain-list-community 20231223093928-1
-v2ray-geoip 202312210040-1
+v2ray-geoip 202312280038-1
 v2raya-git 20231217.r1493.9775d892-1
 v4l-utils 1.26.1-1
 valgrind 3.22.0-1

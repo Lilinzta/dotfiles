@@ -3,7 +3,7 @@
 alias ap='~/Code/shell/ap.sh'
 alias apr='sudo ifconfig ap0 down && sudo ifconfig ap0 up'
 alias aq='asciiquarium'
-alias c='cd'
+alias c='clear'
 alias ca='conda activate'
 alias cC='sudo rm -rf ~/.cache/* && echo "Done!"'
 alias du='du -h'

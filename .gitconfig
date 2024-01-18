@@ -11,5 +11,3 @@
     branch = auto
     diff = auto
     status = auto
-[safe]
-	directory = /opt/flutter

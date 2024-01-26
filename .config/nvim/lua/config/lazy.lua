@@ -15,6 +15,7 @@ if vim.g.neovide then
   vim.g.neovide_cursor_animate_in_insert_mode = true
   vim.g.neovide_cursor_animate_command_line = true
   vim.g.neovide_input_ime = true
+  -- vim.g.neovide_fullscreen = true
   vim.keymap.set("n", "<A-s>", ":w<CR>") -- Save
   vim.keymap.set("v", "<A-c>", '"+y') -- Copy
   vim.keymap.set("n", "<A-v>", '"+P') -- Paste normal mode
@@ -37,6 +38,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.util.project" },
     -- { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    { import = "lazyvim.plugins.extras.linting.eslint" },
+    { import = "lazyvim.plugins.extras.formatting.prettier" },
     -- import/override with your plugins
     { import = "plugins" },
   },

@@ -508,7 +508,7 @@ libassuan 2.5.6-1
 libasyncns 1:0.8+r3+g68cd5af-2
 libatasmart 0.19-6
 libavc1394 0.5.4-6
-libavif 1.0.3-2
+libavif 1.0.4-1
 libayatana-appindicator 0.5.93-1
 libayatana-indicator 0.9.4-1
 libb2 0.98.1-2
@@ -819,7 +819,7 @@ make 4.4.1-2
 marisa 0.2.6-11
 materialx 1.38.8-8
 mbedtls 3.5.1-1
-mbedtls2 2.28.6-1
+mbedtls2 2.28.7-1
 md4c 0.5.2-1
 mdadm 4.2-2
 media-player-info 24-2
@@ -1247,8 +1247,8 @@ usd 23.11-8
 util-linux 2.39.3-1
 util-linux-libs 2.39.3-1
 v2ray 5.12.1-1
-v2ray-domain-list-community 20240131105845-1
-v2ray-geoip 202402010040-1
+v2ray-domain-list-community 20240208184303-1
+v2ray-geoip 202402080038-1
 v2raya 2.2.4.6-1
 v4l-utils 1.26.1-1
 v4l2loopback-dkms 0.12.7-2
@@ -1262,7 +1262,7 @@ virt-manager 4.1.0-2
 virt-viewer 11.0-2
 virtio-win 0.1.240.1-1
 virtiofsd 1.10.1-1
-visual-studio-code-bin 1.86.0-1
+visual-studio-code-bin 1.86.1-1
 vlc 3.0.20-7
 vmaf 3.0.0-1
 volume_key 0.3.12-8

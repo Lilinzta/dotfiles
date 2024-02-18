@@ -1,3 +1,13 @@
+# Auto change dir---yazi
+function ya() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 # Auto change dir---ranger
 function ra() {
     temp_file="$(mktemp -t "ranger_cd.XXXXXXXXXX")"
@@ -7,6 +17,8 @@ function ra() {
     fi
     rm -f -- "$temp_file"
 }
+
+# Auto change dir---joshuto
 function jo() {
 	ID="$$"
 	mkdir -p /tmp/$USER

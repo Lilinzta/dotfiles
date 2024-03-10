@@ -29,7 +29,7 @@
 	#navigator-toolbox::after { border: none; }
 	#TabsToolbar .tabbrowser-arrowscrollbox,
 	#tabbrowser-tabs, .tab-stack { min-height: 28px !important; }
-	.tabbrowser-tab { font-size: 100%; }
+	.tabbrowser-tab { font-size: 80%; }
 	.tab-content { padding: 0 5px; }
 	.tab-close-button .toolbarbutton-icon { width: 12px !important; height: 12px !important; }
 	toolbox[inFullscreen=true] { display: none; }
@@ -48,101 +48,24 @@
 	 * cui-widget-panelview is needed because "new"-style panels (those
 	 * using "unified" panels) don't get flex by default, which results in
 	 * them being the wrong height.
+	 *
+	 * Oh, yeah, and the popup-notification-panel (like biometrics prompts)
+	 * of course follows different rules again, and needs its own special
+	 * rule.
 	 */
-	#mainPopupSet panel.panel-no-padding { margin-top: calc(-50vh + 40px); }
-	#mainPopupSet .panel-viewstack { max-height: 50vh !important; height: 50vh; }
+	#mainPopupSet panel.panel-no-padding { margin-top: calc(-50vh + 40px) !important; }
+	#mainPopupSet .panel-viewstack, #mainPopupSet popupnotification { max-height: 50vh !important; height: 50vh; }
+	#mainPopupSet panel.panel-no-padding.popup-notification-panel { margin-top: calc(-50vh - 35px) !important; }
 	#navigator-toolbox .panel-viewstack { max-height: 75vh !important; }
 	panelview.cui-widget-panelview { flex: 1; }
 	panelview.cui-widget-panelview > vbox { flex: 1; min-height: 50vh; }
 }
 
-/*================== MAIN HEADER ==================*/
-toolbox#navigator-toolbox {
-  border: 0 !important;
+/** 隐藏顶部标签栏 **/
+#TabsToolbar {
+  display: none;
 }
 
-/*================== TABS BAR ==================*/
-#titlebar #TabsToolbar {
-  visibility: collapse;
-  position: button;
-  padding: 6px 0px 2px 6px !important;
-  background: var(--base_color1) !important;
+#sidebar-header {
+  display: none;
 }
-
-/*================== URL BAR ==================*/
-/*#urlbar {
-  text-align: center !important;
-}*/
-
-/* treestylebar */
-:root {
---theme-colors-button_active: rgb(0, 221, 255);
-}
-
-#background {
-    background: #2e3440 !important;
-}
-
-tab-item-substance {
-  border: solid 1px #00000012;
-}
-
-tab-item.active .background {
-  background-color: steelblue;
-}
-
-tab-item.active .label-content {
-  font-weight: bold;
-  font-size: 14px;
-}
-tab-item.active tab-twisty,
-tab-item.active .label-content,
-tab-item.active tab-counter {
-  color: #fff;
-}
-
-tab-item:not(.active) .background {
-  background-color: #3b4252;
-}
-
-tab-item:not(.active) .label {
-  color: #ffff !important;
-}
-
-tab-item tab-item-substance:hover {
-  background: #5A89B7 !important;
-}
-
-.newtab-button {
-  background: #2e3440 !important;
-}
-
-/* only remove TST headers */
-#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
-  display: none; /* remove sidebar header */
-  border-color: var(--base_color2) !important;
-}
-
-/* The default sidebar width. */
-#sidebar-box {
-  overflow: hidden!important;
-  position: relative!important;
-  transition: all 100ms!important;
-  min-width: 40px !important;
-  max-width: 125px !important;
-}
-
-/* The sidebar width when hovered. */
-/*#sidebar-box #sidebar,#sidebar-box:hover {
-  transition: all 100ms!important;
-  min-width: 125px !important;
-  max-width: 125px !important;
-}*/
-
-.sidebar-splitter {
-  /* display: none;  remove sidebar split line */
-  min-width: 1px !important;
-  max-width: 1px !important;
-  border-color: var(--base_color2) !important;
-}
-

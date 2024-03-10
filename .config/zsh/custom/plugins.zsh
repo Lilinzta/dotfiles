@@ -9,30 +9,33 @@ zinit light-mode wait lucid depth=1 for \
 zinit ice wait lucid depth=1
 zinit light MichaelAquilina/zsh-you-should-use
 
+zi ice as"completion"
+zi snippet OMZP::/docker/completions/_docker
+
 # oh-my-zsh libs
 zi light-mode lucid for \
-    OMZ::lib/history.zsh \
-    OMZ::lib/functions.zsh \
-    OMZ::lib/completion.zsh \
-    OMZ::lib/directories.zsh \
-    OMZ::lib/key-bindings.zsh \
-    OMZ::lib/theme-and-appearance.zsh
+    OMZL::/history.zsh \
+    OMZL::/functions.zsh \
+    OMZL::/completion.zsh \
+    OMZL::/directories.zsh \
+    OMZL::/key-bindings.zsh \
+    OMZL::/theme-and-appearance.zsh
 
 # oh-my-zsh plugins
 zi light-mode wait lucid for \
-    OMZ::plugins/z/z.plugin.zsh \
-    OMZ::plugins/cp/cp.plugin.zsh \
-    OMZ::plugins/pip/pip.plugin.zsh \
-    OMZ::plugins/sudo/sudo.plugin.zsh \
-    OMZ::plugins/python/python.plugin.zsh \
-    OMZ::plugins/history/history.plugin.zsh \
-    OMZ::plugins/vi-mode/vi-mode.plugin.zsh \
-    OMZ::plugins/extract/extract.plugin.zsh \
-    OMZ::plugins/archlinux/archlinux.plugin.zsh \
-    OMZ::plugins/gitignore/gitignore.plugin.zsh \
-    OMZ::plugins/common-aliases/common-aliases.plugin.zsh \
-    OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh \
-    OMZ::plugins/command-not-found/command-not-found.plugin.zsh
+    OMZP::/z/z.plugin.zsh \
+    OMZP::/cp/cp.plugin.zsh \
+    OMZP::/pip/pip.plugin.zsh \
+    OMZP::/sudo/sudo.plugin.zsh \
+    OMZP::/python/python.plugin.zsh \
+    OMZP::/history/history.plugin.zsh \
+    OMZP::/vi-mode/vi-mode.plugin.zsh \
+    OMZP::/extract/extract.plugin.zsh \
+    OMZP::/archlinux/archlinux.plugin.zsh \
+    OMZP::/gitignore/gitignore.plugin.zsh \
+    OMZP::/common-aliases/common-aliases.plugin.zsh \
+    OMZP::/colored-man-pages/colored-man-pages.plugin.zsh \
+    OMZP::/command-not-found/command-not-found.plugin.zsh
 
 
 eval "$(starship init zsh)"

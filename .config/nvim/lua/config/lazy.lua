@@ -15,7 +15,7 @@ if vim.g.neovide then
   vim.g.neovide_cursor_animate_in_insert_mode = true
   vim.g.neovide_cursor_animate_command_line = true
   vim.g.neovide_input_ime = true
-  vim.g.neovide_transparency = 0.75
+  vim.g.neovide_transparency = 0.65
   -- vim.g.neovide_fullscreen = true
   vim.keymap.set("n", "<A-s>", ":w<CR>") -- Save
   vim.keymap.set("v", "<A-c>", '"+y') -- Copy

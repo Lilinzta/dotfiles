@@ -8,7 +8,7 @@ adobe-source-code-pro-fonts 2.042u+1.062i+1.026vf-1
 adwaita-cursors 46.0-1
 adwaita-icon-theme 46.0-1
 aha 0.5.1-2
-alacritty 0.13.1-1
+alacritty 0.13.2-1
 alembic 1.8.6-1
 alsa-card-profiles 1:1.0.4-2
 alsa-lib 1.2.11-1
@@ -120,7 +120,7 @@ desktop-file-utils 0.27-1
 device-mapper 2.03.23-3
 dhcpcd 10.0.6-1
 diffutils 3.10-1
-discord 0.0.46-1
+discord 0.0.47-1
 discount 3.0.0.d-1
 discover 6.0.2-3
 djvulibre 3.5.28-5
@@ -128,8 +128,8 @@ dkms 3.0.12-1
 dmidecode 3.5-1
 dnsmasq 2.90-1
 dnssec-anchors 20190629-3
-docker 1:25.0.4-1
-docker-compose 2.24.7-1
+docker 1:26.0.0-1
+docker-compose 2.26.0-1
 dolphin 24.02.1-1
 dos2unix 7.5.2-1
 dosfstools 4.2-3
@@ -152,7 +152,7 @@ electron12-bin 12.2.3-2
 electron22 22.3.27-5
 electron28 28.2.8-1
 ell 0.63-1
-emacs 29.2-1
+emacs 29.3-1
 embree 4.3.1-1
 embree3 3.13.5-2
 enchant 2.6.5-1
@@ -163,7 +163,7 @@ expat 2.6.2-1
 f2fs-tools 1.16.0-2
 faad2 2.11.1-1
 fakeroot 1.34-1
-fastfetch 2.8.9-1
+fastfetch 2.8.10-1
 fcitx5 5.1.8-1
 fcitx5-chinese-addons 5.1.4-1
 fcitx5-configtool 5.1.4-1
@@ -173,7 +173,7 @@ fcitx5-pinyin-moegirl 20240309-1
 fcitx5-pinyin-zhwiki 1:0.2.4.20240210-1
 fcitx5-qt 5.1.5-2
 fd 9.0.0-2
-feishu-bin 6.9.20-1
+feishu-bin 7.11.8-1
 festival 2.5.0-5
 ffmpeg 2:6.1.1-7
 ffmpeg4.4 4.4.4-5
@@ -184,8 +184,8 @@ file 5.45-1
 filebrowser-bin 2.27.0-1
 filesystem 2024.01.19-1
 findutils 4.9.0-3
-firefox-developer-edition 125.0b3-1
-firefox-developer-edition-i18n-zh-cn 125.0b3-1
+firefox-developer-edition 125.0b4-1
+firefox-developer-edition-i18n-zh-cn 125.0b4-1
 flac 1.4.3-1
 flex 2.6.4-5
 fmt 10.2.0-1
@@ -490,7 +490,7 @@ lib32-libxdmcp 1.1.5-1
 lib32-libxext 1.3.6-1
 lib32-libxfixes 6.0.1-1
 lib32-libxi 1.8.1-1
-lib32-libxkbcommon 1.6.0-1
+lib32-libxkbcommon 1.7.0-1
 lib32-libxml2 2.12.6-1
 lib32-libxrandr 1.5.4-1
 lib32-libxrender 0.9.11-1
@@ -690,7 +690,7 @@ libotr 4.1.1-4
 libp11-kit 0.25.3-1
 libpaper 2.2.5-1
 libpcap 1.10.4-1
-libpciaccess 0.18-1
+libpciaccess 0.18.1-1
 libpgm 5.3.128-3
 libpipeline 1.5.7-2
 libpipewire 1:1.0.4-2
@@ -803,13 +803,13 @@ libxfont2 2.0.6-2
 libxft 2.3.8-1
 libxi 1.8.1-1
 libxinerama 1.1.5-1
-libxkbcommon 1.6.0-1
-libxkbcommon-x11 1.6.0-1
+libxkbcommon 1.7.0-1
+libxkbcommon-x11 1.7.0-1
 libxkbfile 1.1.3-1
 libxklavier 5.4-5
 libxml2 2.12.6-1
 libxmlb 0.3.15-1
-libxmu 1.1.4-1
+libxmu 1.2.0-1
 libxpm 3.5.17-1
 libxpresent 1.0.1-1
 libxrandr 1.5.4-1
@@ -835,7 +835,6 @@ linux-headers 6.8.1.arch1-1
 linux-zen 6.8.1.zen1-1
 linux-zen-headers 6.8.1.zen1-1
 linuxqq 2:3.2.6_22355-1
-linuxqq-debug 2:3.2.6_22355-1
 lirc 1:0.10.2-3
 litellm 1.31.8-1
 llvm 17.0.6-2
@@ -898,16 +897,16 @@ ncurses 6.4_20230520-1
 ndctl 78-1
 neofetch 7.1.0-2
 neovide 0.12.2-1
-neovim 0.9.5-2
+neovim 0.9.5-3
 net-snmp 5.9.4-2
 netpbm 10.86.40-2
 nettle 3.9.1-1
 networkmanager 1.46.0-2
 networkmanager-qt 6.0.0-1
 nftables 1:1.0.9-1
-nilfs-utils 2.2.9-2
+nilfs-utils 2.2.10-1
 ninja 1.11.1-3
-node-gyp 10.0.1-1
+node-gyp 10.1.0-1
 nodejs 21.7.1-1
 nodejs-nopt 7.2.0-1
 noto-fonts 1:24.3.1-1
@@ -938,7 +937,7 @@ openexr 3.2.3-1
 openimagedenoise 2.2.1-1
 openimageio 2.5.9.0-1
 openjpeg2 2.5.2-1
-openmpi 5.0.2-6
+openmpi 5.0.2-7
 openpgl 0.6.0-1
 openpmix 4.2.9-1
 openshadinglanguage 1.13.7.0-3
@@ -1027,7 +1026,7 @@ print-manager 1:6.0.2-3
 prison 6.0.0-1
 procps-ng 4.0.4-3
 protobuf 25.3-3
-prrte 3.0.4-3
+prrte 3.0.5-1
 psmisc 23.7-1
 ptex 2.4.2-2
 pugixml 1.14-1
@@ -1067,13 +1066,10 @@ python-coverage 7.4.1-1
 python-crashtest 0.4.1-2
 python-cryptography 42.0.5-1
 python-cssselect 1.2.0-4
-python-dirty-equals 0.7.1.post0-1
 python-distlib 0.3.8-1
 python-distro 1.9.0-1
-python-docstring-parser 0.16-1
 python-dotenv 1.0.1-1
 python-dulwich 0.21.7-1
-python-editables 0.5-1
 python-evdev 1.6.1-2
 python-exceptiongroup 1.2.0-1
 python-fastjsonschema 2.19.1-1
@@ -1083,7 +1079,6 @@ python-frozenlist 1.4.1-1
 python-gobject 3.48.1-2
 python-h11 0.14.0-2
 python-h2 4.1.0-3
-python-hatchling 1.21.1-2
 python-hpack 4.0.0-4
 python-html5lib 1.1-13
 python-httpcore 1.0.2-2
@@ -1116,12 +1111,11 @@ python-more-itertools 10.2.0-1
 python-msgpack 1.0.5-1
 python-multidict 6.0.5-1
 python-numpy 1.26.4-1
-python-openai 1.14.2-1
+python-openai 1.14.3-1
 python-opengl 3.1.6-2
 python-ordered-set 4.1.0-4
 python-outcome 1.3.0.post0-2
 python-packaging 23.2-1
-python-pathspec 0.12.1-1
 python-pexpect 4.9.0-1
 python-pillow 10.2.0-2
 python-pip 24.0-1
@@ -1146,7 +1140,6 @@ python-pyrate-limiter 3.6.0-1
 python-pyrsistent 0.19.3-3
 python-pyserial 3.5-5
 python-pytest 1:8.1.1-1
-python-pytest-asyncio 0.23.6-1
 python-python-multipart 0.0.6-2
 python-pytz 2024.1-1
 python-pyxdg 0.28-2
@@ -1157,7 +1150,7 @@ python-requests 2.31.0-1
 python-requests-toolbelt 1.0.0-1
 python-rich 13.7.1-1
 python-rpds-py 0.17.1-1
-python-secretstorage 3.3.3-2
+python-secretstorage 3.3.3-3
 python-sentry_sdk 1.43.0-1
 python-setuptools 1:69.0.3-4
 python-shellingham 1.5.4-1
@@ -1167,7 +1160,7 @@ python-sniffio 1.3.1-1
 python-sortedcontainers 2.4.0-5
 python-soupsieve 2.5-1
 python-starlette 0.37.2-1
-python-tenacity 8.2.3-1
+python-tenacity 8.2.3-2
 python-tiktoken 0.6.0-1
 python-tokenizers 1:0.15.2-1
 python-tomli 2.0.1-3
@@ -1175,7 +1168,7 @@ python-tomlkit 0.12.4-1
 python-toolz 0.12.1-1
 python-tqdm 4.66.2-1
 python-trio 0.25.0-1
-python-trove-classifiers 2024.3.3-1
+python-trove-classifiers 2024.3.3-2
 python-typer 0.9.0-2
 python-typing_extensions 4.10.0-1
 python-uc-micro-py 1.0.3-1
@@ -1269,6 +1262,7 @@ serd 0.32.2-1
 shaderc 2023.8-1
 shadow 4.15.0-1
 shared-mime-info 2.4-1
+shell-gpt 1.4.0-1
 shiboken6 6.6.2-2
 signon-kwallet-extension 24.02.1-1
 signon-plugin-oauth2 0.25-3
@@ -1297,7 +1291,7 @@ speexdsp 1.2.1-1
 spice-gtk 0.42-3
 spice-protocol 0.14.4-1
 spice-vdagent 0.22.1-3
-spicetify-cli 2.35.1-1
+spicetify-cli 2.36.0-1
 spirv-tools 2023.6-1
 spotify 1:1.2.31.1205-2
 spotx-git r81.29e7d24-1
@@ -1327,7 +1321,7 @@ talloc 2.4.1-1
 tar 1.35-2
 tcl 8.6.14-2
 tdb 1.4.9-1
-telegram-desktop 4.15.2-2
+telegram-desktop 4.15.6-1
 terminus-font 4.49.1-6
 tevent 1:0.15.0-1
 texinfo 7.1-2
@@ -1346,6 +1340,12 @@ tracker3 3.7.0-1
 transmission-cli 4.0.5-1
 trash-cli 0.23.11.10-1
 tree-sitter 0.22.2-1
+tree-sitter-bash 0.21.0-1
+tree-sitter-c 0.21.0-1
+tree-sitter-lua 0.1.0-1
+tree-sitter-markdown 0.2.3-1
+tree-sitter-python 0.21.0-1
+tree-sitter-vimdoc 2.5.1-1
 treefetch 2.0.0-3
 tslib 1.23-1
 ttf-font-awesome 6.5.1-1
@@ -1405,7 +1405,6 @@ vulkan-icd-loader 1.3.279-1
 vulkan-intel 1:24.0.3-2
 vulkan-tools 1.3.269-1
 w3m 0.5.3.git20230713_1-1
-warp-terminal-new 0.2024.03.12.08.02.stable.02-1
 wavpack 5.7.0-1
 wayland 1.22.0-1
 wayland-utils 1.2.0-1
@@ -1415,7 +1414,7 @@ webrtc-audio-processing-1 1.3-2
 wechat-uos-bwrap 1.0.0.238-4
 wget 1.24.5-1
 which 2.21-6
-wine 9.4-1
+wine 9.5-1
 wine-gecko 2.47.4-1
 winetricks 20240105-1
 wireplumber 0.5.0-1

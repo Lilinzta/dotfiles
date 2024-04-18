@@ -30,44 +30,22 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set foldmethod
-set foldlevel=99
 set autochdir
 
 noremap <LEADER> :nohlsearch
 inoremap jk <ESC>
 
-map s <nop>
-map <C-s> :w<CR>
-map <C-q> :wq<CR>
 map <C-r> :source $MYVIMRC<CR>
 map ; :
-
-map w< :set nosplitright<CR>:vsplit<CR>
-map w> :set splitright<CR>:vsplit<CR>
-map w^ :set nosplitbelow<CR>:split<CR>
-map wv :set splitbelow<CR>:split<CR>
-
-map <C-k> <C-w>k
-map <C-j> <C-w>j
-map <C-h> <C-w>h
-map <C-l> <C-w>l
-
-map <up> :res +5<CR>
-map <down> :res -5<CR>
-map <left> :vertical resize-5<CR>
-map <right> :vertical resize+5<CR>
 
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
-Plug 'connorholyday/vim-snazzy'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'fneu/breezy'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 call plug#end()
-" set background=dark
-" color snazzy
-colorscheme breezy
-let g:SnazzyTransparent = 1
 
+colorscheme catppuccin_mocha
+let g:airline_theme = 'catppuccin_mocha'
+let g:lightline = {'colorscheme': 'catppuccin_mocha'}

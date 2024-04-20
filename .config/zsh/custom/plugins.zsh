@@ -12,6 +12,11 @@ zinit light MichaelAquilina/zsh-you-should-use
 zi ice as"completion"
 zi snippet OMZP::/docker/completions/_docker
 
+zinit ice as"command" from"gh-r" \
+          atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
+          atpull"%atclone" src"init.zsh"
+zinit light starship/starship
+
 # oh-my-zsh libs
 zi light-mode lucid for \
     OMZL::/history.zsh \
@@ -38,5 +43,3 @@ zi light-mode wait lucid for \
     OMZP::/colored-man-pages/colored-man-pages.plugin.zsh \
     OMZP::/command-not-found/command-not-found.plugin.zsh
 
-
-eval "$(starship init zsh)"

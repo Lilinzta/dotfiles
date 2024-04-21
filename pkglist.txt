@@ -111,8 +111,8 @@ cython 3.0.10-1
 dav1d 1.4.1-1
 db5.3 5.3.28-4
 dbus 1.14.10-2
-dbus-broker 36-1
-dbus-broker-units 36-1
+dbus-broker 36-2
+dbus-broker-units 36-2
 dbus-glib 0.112-3
 dbus-python 1.3.2-2
 dconf 0.40.0-2
@@ -190,6 +190,7 @@ filebrowser-bin 2.28.0-1
 filesystem 2024.04.07-1
 findutils 4.9.0-3
 firefox-developer-edition 126.0b3-1
+fish 3.7.1-2
 flac 1.4.3-1
 flatpak-xdg-utils 1.0.5-1
 flex 2.6.4-5
@@ -216,7 +217,7 @@ gd 2.3.3-7
 gdb 14.2-1
 gdb-common 14.2-1
 gdbm 1.23-2
-gdk-pixbuf2 2.42.11-1
+gdk-pixbuf2 2.42.11-2
 gegl 0.4.48-2
 geoclue 2.7.1-2
 gettext 0.22.4-1
@@ -653,7 +654,7 @@ libkexiv2 24.02.2-1
 libksba 1.6.6-1
 libkscreen 6.0.4-1
 libksysguard 6.0.4-1
-liblc3 1.1.0-1
+liblc3 1.1.1-1
 libldac 2.0.2.3-1
 libldap 2.6.7-2
 libldm 0.2.5-2
@@ -849,7 +850,7 @@ linux-firmware-whence 20240409.1addd7dc-1
 linux-headers 6.8.7.arch1-1
 linux-zen 6.8.7.zen1-1
 linux-zen-headers 6.8.7.zen1-1
-linuxqq 2:3.2.7_240412-2
+linuxqq 2:3.2.7_240412-3
 lirc 1:0.10.2-3
 llvm 17.0.6-2
 llvm-libs 17.0.6-2
@@ -1132,7 +1133,7 @@ python-ordered-set 4.1.0-4
 python-outcome 1.3.0.post0-2
 python-packaging 23.2-1
 python-pexpect 4.9.0-1
-python-pillow 10.2.0-2
+python-pillow 10.3.0-1
 python-pip 24.0-1
 python-pkginfo 1.9.6-2
 python-platformdirs 4.2.0-1
@@ -1169,12 +1170,14 @@ python-secretstorage 3.3.3-3
 python-sentry_sdk 1.45.0-1
 python-setuptools 1:69.0.3-4
 python-shellingham 1.5.4-1
+python-shtab 1.6.5-1
 python-six 1.16.0-8
 python-sniffio 1.3.1-1
 python-sortedcontainers 2.4.0-5
 python-soupsieve 2.5-1
 python-starlette 0.37.2-1
 python-tenacity 8.2.3-2
+python-termcolor 2.4.0-1
 python-tomli 2.0.1-3
 python-tomlkit 0.12.4-1
 python-toolz 0.12.1-1
@@ -1341,6 +1344,7 @@ timeshift 24.01.1-1
 tinyxml 2.6.2-10
 tinyxml2 10.0.0-1
 tk 8.6.14-2
+tldr 3.2.0-1
 tmux 3.4-6
 tor-browser-bin 13.0.14-1
 tpm2-tss 4.0.1-1
@@ -1357,7 +1361,6 @@ tree-sitter-query 0.2.1-2
 tree-sitter-vimdoc 2.5.1-2
 treefetch 2.0.0-3
 tslib 1.23-1
-ttf-font-awesome 6.5.2-1
 ttf-hack 3.003-6
 ttf-liberation 2.1.5-1
 ttf-nerd-fonts-symbols 3.2.1-1
@@ -1384,7 +1387,7 @@ util-linux 2.40-2
 util-linux-libs 2.40-2
 v2ray 5.14.1-1
 v2ray-domain-list-community 20240416175239-1
-v2ray-geoip 202404110039-1
+v2ray-geoip 202404180039-1
 v2raya 2.2.5.1-1
 v4l-utils 1.26.1-1
 v4l2loopback-dkms 0.13.1-1
@@ -1400,7 +1403,6 @@ virt-viewer 11.0-2
 virtio-win 0.1.248.1-1
 virtiofsd 1.10.1-1
 visual-studio-code-bin 1.88.1-1
-vivaldi 6.6.3271.61-1
 vivaldi-ffmpeg-codecs 122.0.6261.84-1
 vlc 3.0.20-8
 vmaf 3.0.0-1
@@ -1447,14 +1449,12 @@ xcb-util-image 0.4.1-2
 xcb-util-keysyms 0.4.1-4
 xcb-util-renderutil 0.3.10-1
 xcb-util-wm 0.4.2-1
-xclip 0.13-4
 xdg-dbus-proxy 0.1.5-1
 xdg-desktop-portal 1.18.4-1
 xdg-desktop-portal-gtk 1.15.1-1
 xdg-desktop-portal-kde 6.0.4-1
 xdg-user-dirs 0.18-1
 xdg-utils 1.2.1-1
-xdotool 3.20211022.1-1
 xf86-input-libinput 1.4.0-1
 xfsprogs 6.7.0-1
 xkeyboard-config 2.41-1
@@ -1465,9 +1465,7 @@ xorg-server-common 21.1.13-1
 xorg-setxkbmap 1.3.4-1
 xorg-xauth 1.1.3-1
 xorg-xdpyinfo 1.3.4-1
-xorg-xeyes 1.3.0-1
 xorg-xkbcomp 1.4.7-1
-xorg-xlsclients 1.1.5-1
 xorg-xmessage 1.0.7-1
 xorg-xprop 1.2.7-1
 xorg-xrandr 1.5.2-1

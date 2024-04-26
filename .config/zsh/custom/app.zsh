@@ -31,7 +31,5 @@ zle -N _sgpt_zsh
 bindkey ^q _sgpt_zsh
 # Shell-GPT integration ZSH v0.1
 
-source /home/lilin/.config/broot/launcher/bash/br
-
 # Activate Mambaforge
 [ -f /opt/mambaforge/etc/profile.d/conda.sh ] && source /opt/mambaforge/etc/profile.d/conda.sh

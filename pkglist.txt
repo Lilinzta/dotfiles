@@ -90,7 +90,7 @@ cblas 3.12.0-3
 cdparanoia 10.2-9
 cfitsio 1:4.4.0-1
 chafa 1.14.0-3
-chromium 124.0.6367.78-1
+chromium 124.0.6367.91-1
 cifs-utils 7.0-3
 clang 17.0.6-1
 clash-verge-rev-bin 1.6.0-1
@@ -100,7 +100,7 @@ cmake 3.29.2-1
 compiler-rt 17.0.6-1
 conda-zsh-completion 0.11-1
 confuse 3.3-4
-containerd 1.7.15-1
+containerd 1.7.16-1
 convertlit 1.8-11
 coreutils 9.5-1
 cpio 2.15-1
@@ -148,6 +148,7 @@ draco 1.5.6-2
 drkonqi 6.0.4-1
 dtc 1.7.0-4
 duktape 2.7.0-6
+dust 1.0.0-3
 e2fsprogs 1.47.0-2
 ebook-tools 0.2.2-7
 ebtables 2.0.10_4-8
@@ -168,12 +169,12 @@ espeak 1:1.48.04-4
 exfatprogs 1.2.2-1
 exiv2 0.28.2-3
 expat 2.6.2-1
-eza 0.18.11-1
+eza 0.18.13-1
 f2fs-tools 1.16.0-2
 faad2 2.11.1-1
 fakeroot 1.34-1
 fastfetch 2.10.2-1
-fcitx5 5.1.8-1
+fcitx5 5.1.9-1
 fcitx5-chinese-addons 5.1.4-1
 fcitx5-configtool 5.1.4-1
 fcitx5-gtk 5.1.2-1
@@ -550,7 +551,7 @@ libassuan 2.5.7-2
 libasyncns 1:0.8+r3+g68cd5af-2
 libatasmart 0.19-6
 libavc1394 0.5.4-6
-libavif 1.0.4-2
+libavif 1.0.4-3
 libayatana-appindicator 0.5.93-1
 libayatana-indicator 0.9.4-1
 libb2 0.98.1-2
@@ -775,7 +776,7 @@ libtracefs 1.8.0-1
 libunibreak 6.1-1
 libunistring 1.2-1
 libunwind 1.8.1-2
-libupnp 1.14.19-1
+libupnp 1.14.19-2
 liburcu 0.14.0-1
 liburing 2.5-1
 libusb 1.0.27-1
@@ -1404,7 +1405,7 @@ udisks2 2.10.1-4
 ueberzugpp 2.9.4-1
 unarchiver 1.10.8-1
 unibilium 2.1.1-2
-unrar 1:7.0.7-1
+unrar 1:7.0.8-1
 unzip 6.0-20
 upower 1.90.4-1
 usbmuxd 1.1.1-3
@@ -1416,7 +1417,7 @@ util-linux-libs 2.40-2
 uvicorn 0.29.0-1
 v2ray 5.14.1-1
 v2ray-domain-list-community 20240422085908-1
-v2ray-geoip 202404180039-1
+v2ray-geoip 202404250042-1
 v2raya 2.2.5.1-1
 v4l-utils 1.26.1-1
 v4l2loopback-dkms 0.13.1-1

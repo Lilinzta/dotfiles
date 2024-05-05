@@ -28,15 +28,15 @@ zi light-mode lucid for \
 
 # oh-my-zsh plugins
 zi light-mode wait lucid for \
-    OMZP::/z/z.plugin.zsh \
     OMZP::/cp/cp.plugin.zsh \
     OMZP::/pip/pip.plugin.zsh \
     OMZP::/sudo/sudo.plugin.zsh \
-    OMZP::/python/python.plugin.zsh \
     OMZP::/docker/docker.plugin.zsh \
+    OMZP::/python/python.plugin.zsh \
+    OMZP::/zoxide/zoxide.plugin.zsh \
+    OMZP::/extract/extract.plugin.zsh \
     OMZP::/history/history.plugin.zsh \
     OMZP::/vi-mode/vi-mode.plugin.zsh \
-    OMZP::/extract/extract.plugin.zsh \
     OMZP::/archlinux/archlinux.plugin.zsh \
     OMZP::/gitignore/gitignore.plugin.zsh \
     OMZP::/common-aliases/common-aliases.plugin.zsh \

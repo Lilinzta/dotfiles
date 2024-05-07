@@ -6,10 +6,10 @@
   email = lilinzta@gmail.com
   name = Haotian Li
 [core]
-	editor = nvim
+  editor = nvim
 [color]
   branch = auto
   diff = auto
   status = auto
 [init]
-	defaultBranch = master
+  defaultBranch = master

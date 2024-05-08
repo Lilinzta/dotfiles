@@ -121,12 +121,14 @@ keymap = [
   { keys = ["m", "s"], command = "linemode size" },
   { keys = ["m", "m"], command = "linemode mtime" },
 
-  { keys = ["g", "r"], command = "cd /" },
+  { keys = ["g", "d"], command = "cd ~/ws/downloads" },
+  { keys = ["g", "m"], command = "cd ~/ws/musics" },
+  { keys = ["g", "v"], command = "cd ~/ws/videos" },
   { keys = ["g", "c"], command = "cd ~/.config" },
-  { keys = ["g", "d"], command = "cd ~/ws/download" },
   { keys = ["g", "e"], command = "cd /etc" },
   { keys = ["g", "t"], command = "cd /tmp" },
   { keys = ["g", "h"], command = "cd ~/" },
+  { keys = ["g", "r"], command = "cd /" },
   { keys = ["?"], command = "help" },
 ]
 

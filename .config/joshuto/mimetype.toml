@@ -46,7 +46,7 @@ reader_default = [
   { command = "evince", fork = true, silent = true }
 ]
 
-libreoffice_default = [{ command = "libreoffice", fork = true, silent = true }]
+libreoffice_default = [{ command = "wps", fork = true, silent = true }]
 
 [extension]
 

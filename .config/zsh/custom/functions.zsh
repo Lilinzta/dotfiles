@@ -1,5 +1,5 @@
 # Auto change dir---yazi
-function yy() {
+function ya() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
 	yazi "$@" --cwd-file="$tmp"
 	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
@@ -43,20 +43,19 @@ function jo() {
 			;;
 	esac
 }
+
 function bl() {
   echo `expr $1 \* 75` | sudo tee /sys/class/backlight/intel_backlight/brightness
 }
+
 function fj() {
-  sgpt "translate '$1' to Chinese"
+  tgpt "translate '$1' to Chinese"
 }
+
 function jf() {
-  sgpt "translate '$1' to English"
+  tgpt "translate '$1' to English"
 }
-function acp() {
-  git add .
-  git commit -m "$1"
-  git push
-}
+
 function mcd() {
     mkdir -p "$1"
     cd "$1"

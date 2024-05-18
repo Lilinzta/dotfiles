@@ -13,7 +13,7 @@ if vim.g.neovide then
   vim.g.neovide_cursor_animate_command_line = true
   vim.g.neovide_cursor_vfx_mode = "railgun"
   vim.o.guifont = "FiraCode Nerd Font:h17"
-  vim.g.neovide_transparency = 0.75
+  --  vim.g.neovide_transparency = 0.75
   vim.g.neovide_confirm_quit = true
   -- vim.g.neovide_input_ime = true
   -- vim.g.neovide_fullscreen = true

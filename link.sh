@@ -13,6 +13,7 @@ ln -s $dot/.zshrc $HOME/.zshrc
 ln -s $dot/.vim $HOME/.vim
 
 # Create symbolic links for dotfiles in the .config directory
+ln -s $dotconf/starship.toml $conf/starship.toml
 ln -s $dotconf/fontconfig $conf/fontconfig
 ln -s $dotconf/alacritty $conf/alacritty
 ln -s $dotconf/fastfetch $conf/fastfetch

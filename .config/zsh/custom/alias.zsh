@@ -3,6 +3,7 @@
 alias aq='asciiquarium'
 alias c='clear'
 alias ca='conda activate'
+alias cda='conda deactivate'
 alias cC='sudo rm -rf ~/.cache/* && echo "Done!"'
 alias co='cargo'
 alias du='du -h'

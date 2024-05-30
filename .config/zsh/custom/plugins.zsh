@@ -9,9 +9,6 @@ zinit light-mode wait lucid depth=1 for \
 zinit ice wait lucid depth=1
 zinit light MichaelAquilina/zsh-you-should-use
 
-zi ice as"completion"
-zi snippet OMZP::/docker/completions/_docker
-
 zinit ice as"command" from"gh-r" \
           atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
           atpull"%atclone" src"init.zsh"
@@ -31,7 +28,6 @@ zi light-mode wait lucid for \
     OMZP::/cp/cp.plugin.zsh \
     OMZP::/pip/pip.plugin.zsh \
     OMZP::/sudo/sudo.plugin.zsh \
-    OMZP::/docker/docker.plugin.zsh \
     OMZP::/python/python.plugin.zsh \
     OMZP::/zoxide/zoxide.plugin.zsh \
     OMZP::/extract/extract.plugin.zsh \

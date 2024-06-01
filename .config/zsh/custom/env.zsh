@@ -6,4 +6,3 @@ export FZF_DEFAULT_OPTS=" \
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export LANGUAGE=en_US
 export LANG=en_US.UTF-8
-

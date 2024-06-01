@@ -1,9 +1,6 @@
 # I just don't want that in my .zshrc
 # It's so ugly
-alias aq='asciiquarium'
 alias c='clear'
-alias ca='conda activate'
-alias cda='conda deactivate'
 alias cC='sudo rm -rf ~/.cache/* && echo "Done!"'
 alias co='cargo'
 alias du='du -h'
@@ -14,6 +11,7 @@ alias kcp='kdeconnect-cli -n V2048A --share'
 alias lg='lazygit'
 alias ls='lsd'
 alias lst='lsd --tree'
+alias mm='mamba'
 alias n='neofetch'
 alias nv='nvim'
 alias nvh='nvim ~/.histfile'

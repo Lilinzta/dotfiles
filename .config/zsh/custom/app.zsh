@@ -17,19 +17,5 @@ function nvs() {
 }
 bindkey -s ^n "nvims\n"
 
-# Shell-GPT integration ZSH v0.1
-_sgpt_zsh() {
-if [[ -n "$BUFFER" ]]; then
-    _sgpt_prev_cmd=$BUFFER
-    BUFFER+="⌛"
-    zle -I && zle redisplay
-    BUFFER=$(sgpt --shell <<< "$_sgpt_prev_cmd")
-    zle end-of-line
-fi
-}
-zle -N _sgpt_zsh
-bindkey ^q _sgpt_zsh
-# Shell-GPT integration ZSH v0.1
-
-# Activate Mambaforge
-[ -f /opt/mambaforge/etc/profile.d/conda.sh ] && source /opt/mambaforge/etc/profile.d/conda.sh
+# initialize micromamba
+eval "$(micromamba shell hook --shell zsh)"

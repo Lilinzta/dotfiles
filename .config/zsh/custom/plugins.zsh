@@ -28,6 +28,7 @@ zi light-mode wait lucid for \
     OMZP::/cp/cp.plugin.zsh \
     OMZP::/pip/pip.plugin.zsh \
     OMZP::/sudo/sudo.plugin.zsh \
+    OMZP::/docker/docker.plugin.zsh \
     OMZP::/python/python.plugin.zsh \
     OMZP::/zoxide/zoxide.plugin.zsh \
     OMZP::/extract/extract.plugin.zsh \

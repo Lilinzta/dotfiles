@@ -1,8 +1,8 @@
 # I just don't want that in my .zshrc
 # It's so ugly
+alias alipan='aliyunpan-go'
 alias c='clear'
 alias cC='sudo rm -rf ~/.cache/* && echo "Done!"'
-alias co='cargo'
 alias du='du -h'
 alias e='emacs -nw'
 alias f='fastfetch'

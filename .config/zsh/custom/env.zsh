@@ -1,5 +1,5 @@
-export RUSTUP_UPDATE_ROOT="https://mirror.nju.edu.cn/rustup/rustup"
-export RUSTUP_DIST_SERVER="https://mirror.nju.edu.cn/rustup"
+export RUSTUP_UPDATE_ROOT="https://mirror.nyist.edu.cn/rustup/rustup"
+export RUSTUP_DIST_SERVER="https://mirror.nyist.edu.cn/rustup"
 export ALIYUNPAN_CONFIG_DIR=/home/lilin/.config/aliyunpan
 export PATH=$PATH:$HOME/.cargo/bin:$HOME/.local/bin
 export MAMBA_ROOT_PREFIX=/home/lilin/.mamba

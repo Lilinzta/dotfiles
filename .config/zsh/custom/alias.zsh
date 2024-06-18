@@ -3,6 +3,7 @@
 alias alipan='aliyunpan-go'
 alias c='clear'
 alias cC='sudo rm -rf ~/.cache/* && echo "Done!"'
+alias cn='LANG=zh_CN.UTF-8 LANGUAGE=zh_CN.UTF-8'
 alias du='du -h'
 alias e='emacs -nw'
 alias f='fastfetch'

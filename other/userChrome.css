@@ -8,12 +8,15 @@
 	#navigator-toolbox { flex-direction: column-reverse !important; }
 	#urlbar {
 		top: unset !important;
-		bottom: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+		bottom: calc(var(--urlbar-margin-inline)) !important;
 		box-shadow: none !important;
 		display: flex !important;
 		flex-direction: column !important;
 	}
-	#urlbar-input-container {
+		#urlbar > * {
+			flex: none;
+		}
+	#urlbar .urlbar-input-container {
 		order: 2;
 	}
 	#urlbar > .urlbarView {

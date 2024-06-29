@@ -44,6 +44,11 @@ function jo() {
 	esac
 }
 
+function ag() {
+  cd /home/lilin/code/python/auto_giwifi_python_v2/
+  ./venv/bin/python main.py
+}
+
 function bl() {
   echo `expr $1 \* 75` | sudo tee /sys/class/backlight/intel_backlight/brightness
 }

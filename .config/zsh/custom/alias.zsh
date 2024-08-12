@@ -1,6 +1,6 @@
 # I just don't want that in my .zshrc
 # It's so ugly
-alias alipan='aliyunpan-go'
+alias alipan='aliyunpan'
 alias ap='~/code/shell/ap.sh'
 alias c='clear'
 alias cC='sudo rm -rf ~/.cache/* && echo "Done!"'

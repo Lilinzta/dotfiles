@@ -54,11 +54,11 @@ function bl() {
 }
 
 function fj() {
-  tgpt "translate '$1' to Chinese"
+  sgpt "translate '$1' to Chinese"
 }
 
 function jf() {
-  tgpt "translate '$1' to English"
+  sgpt "translate '$1' to English"
 }
 
 function mcd() {

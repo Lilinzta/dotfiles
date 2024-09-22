@@ -53,14 +53,6 @@ function bl() {
   echo `expr $1 \* 75` | sudo tee /sys/class/backlight/intel_backlight/brightness
 }
 
-function fj() {
-  sgpt "translate '$1' to Chinese"
-}
-
-function jf() {
-  sgpt "translate '$1' to English"
-}
-
 function mcd() {
     mkdir -p "$1"
     cd "$1"

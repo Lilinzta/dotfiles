@@ -1,24 +1,20 @@
-# Auto change dir---yazi
-ya() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
+# run auto_giwifi_python script
+ag() {
+  cd /home/lilin/code/python/auto_giwifi_python_v2/
+  ./venv/bin/python main.py
 }
 
-# Auto change dir---ranger
-ra() {
-    temp_file="$(mktemp -t "ranger_cd.XXXXXXXXXX")"
-    ranger --choosedir="$temp_file" -- "${@:-$PWD}"
-    if chosen_dir="$(cat -- "$temp_file")" && [ -n "$chosen_dir" ] && [ "$chosen_dir" != "$PWD" ]; then
-        cd -- "$chosen_dir"
-    fi
-    rm -f -- "$temp_file"
+# change brightness
+bl() {
+  echo `expr $1 \* 75` | sudo tee /sys/class/backlight/intel_backlight/brightness
 }
 
-# Auto change dir---joshuto
+# fanyi by chatgpt
+fy () {
+  sgpt --role Translator $1
+}
+
+# auto change dir---joshuto
 jo() {
 	ID="$$"
 	mkdir -p /tmp/$USER
@@ -44,20 +40,45 @@ jo() {
 	esac
 }
 
-ag() {
-  cd /home/lilin/code/python/auto_giwifi_python_v2/
-  ./venv/bin/python main.py
-}
-
-bl() {
-  echo `expr $1 \* 75` | sudo tee /sys/class/backlight/intel_backlight/brightness
-}
-
-fy () {
-  sgpt --role Translator $1
-}
-
+# mkdir and cd
 mcd() {
     mkdir -p "$1"
     cd "$1"
 }
+
+# auto change dir---ranger
+ra() {
+    temp_file="$(mktemp -t "ranger_cd.XXXXXXXXXX")"
+    ranger --choosedir="$temp_file" -- "${@:-$PWD}"
+    if chosen_dir="$(cat -- "$temp_file")" && [ -n "$chosen_dir" ] && [ "$chosen_dir" != "$PWD" ]; then
+        cd -- "$chosen_dir"
+    fi
+    rm -f -- "$temp_file"
+}
+
+# auto change dir---yazi
+ya() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
+# neovim switcher
+alias lvim="NVIM_APPNAME=LazyVim nvim"
+alias vimir="NVIM_APPNAME=ayamir nvim"
+alias chad="NVIM_APPNAME=NvChad nvim"
+function nvs() {
+  items=("default" "ayamir" "LazyVim" "NvChad")
+  config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config ❯ " --height=~50% --layout=reverse --border --exit-0)
+  if [[ -z $config ]]; then
+    echo 'Nothing selected'
+    return 0
+  elif [[ $config == "default" ]]; then
+    config=""
+  fi
+  NVIM_APPNAME=$config nvim $@
+}
+bindkey -s ^n "nvims\n"

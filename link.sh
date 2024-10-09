@@ -6,7 +6,6 @@ ln -s $HOME/git/dotfiles/.ideavimrc $HOME/.ideavimrc
 ln -s $HOME/git/dotfiles/.gitconfig $HOME/.gitconfig
 ln -s $HOME/git/dotfiles/.vimrc $HOME/.vimrc
 ln -s $HOME/git/dotfiles/.zshrc $HOME/.zshrc
-ln -s $HOME/git/dotfiles/.vim $HOME
 
 # Create symbolic links for dotfiles in the .config directory
 ln -s $HOME/git/dotfiles/.config/starship.toml $HOME/.config/starship.toml

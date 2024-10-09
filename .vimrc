@@ -38,14 +38,14 @@ inoremap jk <ESC>
 map <C-r> :source $MYVIMRC<CR>
 map ; :
 
-call plug#begin('~/.vim/plugged')
-
-Plug 'vim-airline/vim-airline'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-
-call plug#end()
-
-colorscheme catppuccin_mocha
-let g:airline_theme = 'catppuccin_mocha'
-let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+" call plug#begin('~/.vim/plugged')
+" 
+" Plug 'vim-airline/vim-airline'
+" Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+" 
+" call plug#end()
+" 
+" colorscheme catppuccin_mocha
+" let g:airline_theme = 'catppuccin_mocha'
+" let g:lightline = {'colorscheme': 'catppuccin_mocha'}

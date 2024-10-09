@@ -35,5 +35,3 @@ zi light-mode wait lucid for \
     OMZP::/archlinux/archlinux.plugin.zsh \
     OMZP::/gitignore/gitignore.plugin.zsh \
     OMZP::/colored-man-pages/colored-man-pages.plugin.zsh
-
-zinit light atuinsh/atuin

@@ -2,3 +2,6 @@
 
 # initialize micromamba
 eval "$(micromamba shell hook --shell zsh)"
+
+# initialize atuin
+eval "$(atuin init zsh)"

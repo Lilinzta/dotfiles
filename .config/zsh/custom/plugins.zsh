@@ -13,6 +13,7 @@ zinit ice as"command" from"gh-r" \
           atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
           atpull"%atclone" src"init.zsh"
 zinit light starship/starship
+zinit light atuinsh/atuin
 
 # oh-my-zsh libs
 zi light-mode lucid for \

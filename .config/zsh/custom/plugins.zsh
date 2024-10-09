@@ -13,11 +13,9 @@ zinit ice as"command" from"gh-r" \
           atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
           atpull"%atclone" src"init.zsh"
 zinit light starship/starship
-zinit light atuinsh/atuin
 
 # oh-my-zsh libs
 zi light-mode lucid for \
-    OMZL::/history.zsh \
     OMZL::/functions.zsh \
     OMZL::/completion.zsh \
     OMZL::/directories.zsh \
@@ -33,11 +31,9 @@ zi light-mode wait lucid for \
     OMZP::/python/python.plugin.zsh \
     OMZP::/zoxide/zoxide.plugin.zsh \
     OMZP::/extract/extract.plugin.zsh \
-    OMZP::/history/history.plugin.zsh \
     OMZP::/vi-mode/vi-mode.plugin.zsh \
     OMZP::/archlinux/archlinux.plugin.zsh \
     OMZP::/gitignore/gitignore.plugin.zsh \
-    OMZP::/common-aliases/common-aliases.plugin.zsh \
-    OMZP::/colored-man-pages/colored-man-pages.plugin.zsh \
-    OMZP::/command-not-found/command-not-found.plugin.zsh
+    OMZP::/colored-man-pages/colored-man-pages.plugin.zsh
 
+zinit light atuinsh/atuin

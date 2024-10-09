@@ -1,30 +1,27 @@
 #!/bin/bash
 
-dot=$HOME/git/dotfiles
-dotconf=$dot/.config
-conf=$HOME/.config
-
 # Create symbolic links for dotfiles in the home directory
-ln -s $dot/.tmux.conf $HOME/.tmux.conf
-ln -s $dot/.ideavimrc $HOME/.ideavimrc
-ln -s $dot/.gitconfig $HOME/.gitconfig
-ln -s $dot/.vimrc $HOME/.vimrc
-ln -s $dot/.zshrc $HOME/.zshrc
-ln -s $dot/.vim $HOME/.vim
+ln -s $HOME/git/dotfiles/.tmux.conf $HOME/.tmux.conf
+ln -s $HOME/git/dotfiles/.ideavimrc $HOME/.ideavimrc
+ln -s $HOME/git/dotfiles/.gitconfig $HOME/.gitconfig
+ln -s $HOME/git/dotfiles/.vimrc $HOME/.vimrc
+ln -s $HOME/git/dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/git/dotfiles/.vim $HOME
 
 # Create symbolic links for dotfiles in the .config directory
-ln -s $dotconf/starship.toml $conf/starship.toml
-ln -s $dotconf/fontconfig $conf/fontconfig
-ln -s $dotconf/alacritty $conf/alacritty
-ln -s $dotconf/fastfetch $conf/fastfetch
-ln -s $dotconf/neofetch $conf/neofetch
-ln -s $dotconf/joshuto $conf/joshuto
-ln -s $dotconf/ranger $conf/ranger
-ln -s $dotconf/kitty $conf/kitty
-ln -s $dotconf/helix $conf/helix
-ln -s $dotconf/nvim $conf/nvim
-ln -s $dotconf/btop $conf/btop
-ln -s $dotconf/mpv $conf/mpv
-ln -s $dotconf/zsh $conf/zsh
-ln -s $dotconf/bat $conf/bat
-ln -s $dotconf/lsd $conf/lsd
+ln -s $HOME/git/dotfiles/.config/starship.toml $HOME/.config/starship.toml
+ln -s $HOME/git/dotfiles/.config/fontconfig $HOME/.config
+ln -s $HOME/git/dotfiles/.config/alacritty $HOME/.config
+ln -s $HOME/git/dotfiles/.config/fastfetch $HOME/.config
+ln -s $HOME/git/dotfiles/.config/neofetch $HOME/.config
+ln -s $HOME/git/dotfiles/.config/joshuto $HOME/.config
+ln -s $HOME/git/dotfiles/.config/ranger $HOME/.config
+ln -s $HOME/git/dotfiles/.config/atuin $HOME/.config
+ln -s $HOME/git/dotfiles/.config/kitty $HOME/.config
+ln -s $HOME/git/dotfiles/.config/helix $HOME/.config
+ln -s $HOME/git/dotfiles/.config/nvim $HOME/.config
+ln -s $HOME/git/dotfiles/.config/btop $HOME/.config
+ln -s $HOME/git/dotfiles/.config/mpv $HOME/.config
+ln -s $HOME/git/dotfiles/.config/zsh $HOME/.config
+ln -s $HOME/git/dotfiles/.config/bat $HOME/.config
+ln -s $HOME/git/dotfiles/.config/lsd $HOME/.config

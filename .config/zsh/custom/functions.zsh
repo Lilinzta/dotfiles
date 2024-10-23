@@ -58,12 +58,13 @@ ra() {
 
 # compress using xz
 tz() {
-  for dir in "$@"; do
-    if [ -d "$dir" ]; then
-      tar -cf - "$dir" | xz -9 > "$dir.tar.xz"
-      echo "Compressed $dir to $dir.tar.xz"
+  for arg in "$@"; do
+    if [ -e "$arg" ]; then
+      echo "Compressing $arg to $arg.tar.xz"
+      tar -cf - "$arg" | xz -9 > "$arg.tar.xz"
+      echo "Compressed $arg to $arg.tar.xz"
     else
-      echo "$dir is not a directory."
+      echo "$arg is not a directory."
     fi
   done
 }

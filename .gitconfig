@@ -13,3 +13,5 @@
   status = auto
 [init]
   defaultBranch = master
+[cinnabar]
+	version-check = 1729422042

@@ -42,18 +42,23 @@ jo() {
 
 # mkdir and cd
 mcd() {
-    mkdir -p "$1"
-    cd "$1"
+  mkdir -p "$1"
+  cd "$1"
 }
 
 # auto change dir---ranger
 ra() {
-    temp_file="$(mktemp -t "ranger_cd.XXXXXXXXXX")"
-    ranger --choosedir="$temp_file" -- "${@:-$PWD}"
-    if chosen_dir="$(cat -- "$temp_file")" && [ -n "$chosen_dir" ] && [ "$chosen_dir" != "$PWD" ]; then
-        cd -- "$chosen_dir"
-    fi
-    rm -f -- "$temp_file"
+  temp_file="$(mktemp -t "ranger_cd.XXXXXXXXXX")"
+  ranger --choosedir="$temp_file" -- "${@:-$PWD}"
+  if chosen_dir="$(cat -- "$temp_file")" && [ -n "$chosen_dir" ] && [ "$chosen_dir" != "$PWD" ]; then
+    cd -- "$chosen_dir"
+  fi
+  rm -f -- "$temp_file"
+}
+
+# compress using xz
+tz() {
+  tar -cf - "$1" | xz -9 > "$1.tar.xz"
 }
 
 # auto change dir---yazi

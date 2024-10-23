@@ -58,7 +58,14 @@ ra() {
 
 # compress using xz
 tz() {
-  tar -cf - "$1" | xz -9 > "$1.tar.xz"
+  for dir in "$@"; do
+    if [ -d "$dir" ]; then
+      tar -cf - "$dir" | xz -9 > "$dir.tar.xz"
+      echo "Compressed $dir to $dir.tar.xz"
+    else
+      echo "$dir is not a directory."
+    fi
+  done
 }
 
 # auto change dir---yazi

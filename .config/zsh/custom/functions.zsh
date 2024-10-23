@@ -63,8 +63,9 @@ tz() {
       echo "Compressing $arg to $arg.tar.xz"
       tar -cf - "$arg" | xz -9 > "$arg.tar.xz"
       echo "Compressed $arg to $arg.tar.xz"
+      rm -rf "$arg"
     else
-      echo "$arg is not a directory."
+      echo "$arg does not exist"
     fi
   done
 }

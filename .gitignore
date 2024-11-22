@@ -1,0 +1,2 @@
+**/*.log
+/.config/nvim/lazy-lock.json

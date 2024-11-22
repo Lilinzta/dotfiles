@@ -1,0 +1,28 @@
+theme = "catppuccin_mocha"
+
+[editor]
+auto-save = true
+bufferline = "multiple"
+color-modes = true
+cursorline = true
+line-number = "relative"
+shell = ["zsh", "-c"]
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.lsp]
+display-messages = true
+
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+
+[keys.insert]
+j = { k = "normal_mode" } # Maps `jk` to exit insert mode
+

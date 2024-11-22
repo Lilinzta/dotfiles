@@ -1,0 +1,4 @@
+inoremap jk <ESC>
+map ; :
+set number
+set relativenumber

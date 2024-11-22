@@ -1,0 +1,17 @@
+#
+# ~/.gitconfig
+#
+
+[user]
+  email = lilinzta@gmail.com
+  name = Haotian Li
+[core]
+  editor = nvim
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[init]
+  defaultBranch = master
+[cinnabar]
+	version-check = 1729422042

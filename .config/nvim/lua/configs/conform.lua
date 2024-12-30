@@ -2,13 +2,9 @@ local options = {
   formatters_by_ft = {
     css = { "prettier" },
     html = { "prettier" },
-    javascriptreact = {"deno"},
-    javascript = {"deno"},
     lua = { "stylua" },
     python = { "pyink" },
     rust = { "rustfmt" },
-    typescriptreact = {"deno"},
-    typescript = {"deno"},
     sh = { "shfmt" },
     zsh = { "shfmt" },
   },

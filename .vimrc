@@ -1,7 +1,3 @@
-"
-" ~/.vimrc
-"
-
 let mapleader=" "
 syntax on
 

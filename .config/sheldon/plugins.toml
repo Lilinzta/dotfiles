@@ -1,0 +1,76 @@
+shell = "zsh"
+
+[plugins]
+
+[plugins.zsh-defer]
+github = "romkatv/zsh-defer"
+
+[templates]
+defer = "{{ hooks?.pre | nl }}{% for file in files %}zsh-defer source \"{{ file }}\"\n{% endfor %}{{ hooks?.post | nl }}"
+
+[plugins.archlinux]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/archlinux/archlinux.plugin.zsh"
+
+[plugins.cp]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/cp/cp.plugin.zsh"
+
+[plugins.extract]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/extract/extract.plugin.zsh"
+
+[plugins.python]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/python/python.plugin.zsh"
+
+[plugins.sudo]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/sudo/sudo.plugin.zsh"
+
+[plugins.theme-and-appearance]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/lib/theme-and-appearance.zsh"
+
+[plugins.directories]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/lib/directories.zsh"
+
+[plugins.functions]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/lib/functions.zsh"
+
+[plugins.completion]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/lib/completion.zsh"
+
+[plugins.vi-mode]
+remote = "https://github.com/ohmyzsh/ohmyzsh/raw/master/plugins/vi-mode/vi-mode.plugin.zsh"
+
+[plugins.zsh-you-should-use]
+remote = "https://github.com/MichaelAquilina/zsh-you-should-use/raw/master/you-should-use.plugin.zsh"
+
+[plugins.zsh-autosuggestions]
+github = "zsh-users/zsh-autosuggestions"
+use = ["{{ name }}.zsh"]
+apply = ["defer"]
+
+[plugins.zsh-completions]
+github = "zsh-users/zsh-completions"
+apply = ["defer"]
+
+[plugins.zsh-syntax-highlighting]
+github = "zsh-users/zsh-syntax-highlighting"
+apply = ["defer"]
+
+[plugins.bl]
+inline = 'bl() { echo $(expr $1 \* 75) | sudo tee /sys/class/backlight/intel_backlight/brightness > /dev/null }'
+
+[plugins.fy]
+inline = 'fy() { sgpt --role Translator $1 }'
+
+[plugins.mz]
+inline = 'mz() { mkdir -p "$1" && cd "$1" }'
+
+[plugins.st]
+inline = 'st() { for arg in "$@"; do if [ -e "$arg" ]; then split -a 1 -b 2000M "$arg" "$arg.p"; trash -rf "$arg"; else echo "$arg does not exist"; fi; done; }'
+
+[plugins.txz]
+inline = 'txz() { for arg in "$@"; do if [ -e "$arg" ]; then tar -cJf "$arg.tar.xz" "$arg"; trash -rf "$arg"; else echo "$arg does not exist"; fi; done; }'
+
+[plugins.tzst]
+inline = 'tzst() { for arg in "$@"; do if [ -e "$arg" ]; then tar -I zstd -cf "$arg.tar.zst" "$arg"; trash -rf "$arg"; else echo "$arg does not exist"; fi; done; }'
+
+[plugins.j]
+inline = 'j() { local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd; yazi "$@" --cwd-file="$tmp"; if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then builtin cd -- "$cwd"; fi; rm -f -- "$tmp"; }'

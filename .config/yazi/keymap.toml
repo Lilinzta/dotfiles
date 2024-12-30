@@ -1,0 +1,29 @@
+# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
+[manager]
+prepend_keymap = [
+  { on = "i", run = 'shell "$SHELL" --block', desc = "Open shell here" },
+  { on = "l", run = "plugin smart-enter", desc = "Enter the child directory, or open the file" },
+  { on = "T", run  = "plugin hide-preview", desc = "Hide or show preview" },
+  { on = "<C-1>", run = "plugin toggle-view --args=parent", desc = "Toggle parent" },
+  { on = "<C-2>", run = "plugin toggle-view --args=current", desc = "Toggle current" },
+  { on = "<C-3>", run = "plugin toggle-view --args=preview", desc = "Toggle preview" },
+	{ on = ["g", "d"], run = "cd ~/workspace/downloads", desc = "Go to the downloads directory" },
+	{ on = ["g", "D"], run = "cd ~/workspace/desktop", desc = "Go to the desktop directory" },
+	{ on = ["g", "i"], run = "cd ~/git", desc = "Go to the git directory" },
+  { on = "y", run = [
+    '''
+    shell 'for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list'
+    ''', "yank" ] },
+  { on = [ "g", "r" ], run = [
+    '''
+    shell 'ya emit cd "$(git rev-parse --show-toplevel)"'
+    '''], desc = "goto root of current git repo" },
+]
+
+[[input.prepend_keymap]]
+on   = "<Esc>"
+run  = "close"
+desc = "Cancel input"

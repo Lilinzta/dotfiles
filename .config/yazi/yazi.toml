@@ -1,0 +1,25 @@
+# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
+"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+
+[[opener.add-sub]]
+run  = ''' echo sub-add "'$0'" | socat - /tmp/mpv.sock '''
+desc = "Add sub to MPV"
+
+[[open.prepend_rules]]
+name = "*.{ass,srt,ssa,sty,sup,vtt}"
+use  = [ "add-sub", "edit" ]
+
+[plugin]
+prepend_fetchers = [
+  { id = "git", name = "*", run  = "git" },
+  { id = "git", name = "*/", run  = "git" },
+]
+
+prepend_previewers = [
+  { name = "*.csv", run = "rich-preview" },
+  { name = "*.md", run = "rich-preview" },
+  { name = "*.rst", run = "rich-preview" },
+  { name = "*.ipynb", run = "rich-preview" },
+  { name = "*.json", run = "rich-preview" },
+]

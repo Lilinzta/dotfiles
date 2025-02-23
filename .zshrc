@@ -9,6 +9,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+export PATH="$PATH:$HOME/.cargo/bin"
+
 # custom app
 eval "$(atuin init zsh)"
 eval "$(micromamba shell hook --shell zsh)"

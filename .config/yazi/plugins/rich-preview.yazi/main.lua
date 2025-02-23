@@ -7,7 +7,7 @@ function M:peek(job)
 			"--left",
 			"--line-numbers",
 			"--force-terminal",
---			"--panel=rounded",
+			"--panel=rounded",
 			"--guides",
 			"--max-width",
 			tostring(job.area.w),
